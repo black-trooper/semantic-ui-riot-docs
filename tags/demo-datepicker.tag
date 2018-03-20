@@ -35,6 +35,25 @@
         </div>
         <button type="button" class="ui button" click="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
         <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
+
+        <script>
+          this.setDate = date => {
+            this.refs.datepicker.value = date
+          }
+
+          this.navigateTo = date => {
+            this.refs.datepicker.opts.currentDate = date
+          }
+
+          this.on('mount', () => {
+            this.refs.datepicker.on('change', () => {
+              this.update()
+            })
+            this.refs.datepicker2.on('change', () => {
+              this.update()
+            })
+          })
+        </script>
       </code></pre>
     </div>
   </section>
@@ -168,12 +187,10 @@
     }
 
     this.on('mount', () => {
-      this.update()
-
-      this.refs.datepicker.on('click', () => {
+      this.refs.datepicker.on('change', () => {
         this.update()
       })
-      this.refs.datepicker2.on('click', () => {
+      this.refs.datepicker2.on('change', () => {
         this.update()
       })
     })
