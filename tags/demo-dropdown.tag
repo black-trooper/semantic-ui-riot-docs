@@ -752,8 +752,6 @@
               this.singleMessage.push(`Changed. label: ${target.label}, value: ${target.value}`)
               this.update()
             })
-
-            PR.prettyPrint(false)
           })
         </script>
       </code></pre>
