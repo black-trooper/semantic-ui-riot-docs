@@ -5,6 +5,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
   <title>Semantic UI Riot Demo</title>
   <style>
+    pre {
+      margin: 0;
+    }
+
     code.prettyprint {
       background-color: rgba(0, 0, 0, 0) !important
     }
@@ -19,15 +23,19 @@
   </style>
 </head>
 <body>
-  <app></app>
+  <navigation></navigation>
+  <div style="margin-left:15.5rem">
+    <div class="ui padded one column grid">
+      <div class="column">
+        <content></content>
+      </div>
+    </div>
+  </div>
   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
-  <script src="https://cdn.jsdelivr.net/npm/riot@3.9.0/riot.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/riot-route@3.1.3/dist/route.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js"></script>
-  <script src="./build.js"></script>
-  <script>
-    riot.mount('*');
-  </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/riot@3.9.0/riot.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/riot-route@3.1.3/dist/route.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js"></script> -->
+  <script src="/main.js"></script>
   <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
