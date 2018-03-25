@@ -25,7 +25,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox>
         Make my profile visible
       </su-checkbox>
@@ -49,7 +49,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox class="slider">
         Accept terms and conditions
       </su-checkbox>
@@ -73,7 +73,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox class="toggle">
         Subscribe to weekly newsletter
       </su-checkbox>
@@ -102,7 +102,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox class="read-only" checked="true">
         Read Only
       </su-checkbox>
@@ -126,7 +126,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox checked="true">
         Active
       </su-checkbox>
@@ -150,7 +150,7 @@
       </su-checkbox>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox class="disabled">
         Disabled
       </su-checkbox>
@@ -176,7 +176,7 @@
     </div>
 
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-checkbox label="{ checkbox_label }" />
         <button type="button" click="{ changeCheckboxLabel }" class="ui button">Change label</button>
         
@@ -221,7 +221,7 @@
     </div>
 
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox ref="checkbox1">
         Make my profile visible
       </su-checkbox>
@@ -271,7 +271,7 @@
     </div>
 
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-checkbox ref="checkbox2" checked="{ checkbox2 }">
         Make my profile visible
       </su-checkbox>

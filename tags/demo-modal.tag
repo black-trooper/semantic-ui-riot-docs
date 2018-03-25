@@ -34,7 +34,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal) }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal modal="{ modal }" class="large" ref="modal">
           <div class="ui medium image">
             <img src="./images/avatar2/large/rachel.png" />
@@ -85,7 +85,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal_basic) }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-modal modal="{ modal }" class="basic" ref="modal_basic">
         Your inbox is getting full, would you like us to enable automatic archiving of old messages?
       </su-modal>
@@ -126,7 +126,7 @@
   <p>A modal can have a header</p>
   <section>
     <div class="ui segment inverted">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal modal="{ modal }" />
 
         <script>
@@ -145,7 +145,7 @@
   <p>A modal can contain content</p>
   <section>
     <div class="ui segment inverted">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal>
           <p></p>
           <p></p>
@@ -162,7 +162,7 @@
   <p>A modal can contain image content</p>
   <section>
     <div class="ui segment inverted">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal>
           <div class="ui image">
             <img />
@@ -182,7 +182,7 @@
   <p>A modal can contain a row of actions</p>
   <section>
     <div class="ui segment inverted">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal modal="{ modal }" />
 
         <script>
@@ -227,7 +227,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal4) }">Show full screen modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal ref="modal">
           Full screen modal
         </su-modal>
@@ -271,7 +271,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal_large) }">Show large size modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal class="mini" ref="modal_mini">
           Mini size modal
         </su-modal>
@@ -321,7 +321,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal2) }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal modal="{ modal }" ref="modal">
           And not closable button
         </su-modal>
@@ -368,7 +368,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal3) }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-modal modal="{ modal }" ref="modal">
         </su-modal>
         <div class="ui message" if="{ callbackMessage.length > 0 }">

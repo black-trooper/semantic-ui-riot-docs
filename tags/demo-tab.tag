@@ -27,7 +27,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="three column item">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -55,7 +55,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="secondary">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -83,7 +83,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="pointing">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -106,7 +106,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="secondary pointing">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -134,7 +134,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="top attached">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -157,7 +157,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="bottom attached">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -185,7 +185,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="top tabular">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -208,7 +208,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="bottom tabular">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -242,7 +242,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="left tabular">
           <div class="ui grid">
             <div class="four wide column">
@@ -287,7 +287,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="right tabular">
           <div class="ui grid">
             <div class="twelve wide stretched column">
@@ -331,7 +331,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="three column item">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages" active="true">Messages content</su-tab>
@@ -364,7 +364,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="inverted">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -401,7 +401,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset>
           <su-tab title="red" title-class="red" class="red segment">Red</su-tab>
           <su-tab title="orange" title-class="orange" class="orange segment">Orange</su-tab>
@@ -433,7 +433,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="red">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -456,7 +456,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="red">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -489,7 +489,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="inverted">
           <su-tab title="red" title-class="red" class="red segment inverted">Red</su-tab>
           <su-tab title="orange" title-class="orange" class="orange segment inverted">Orange</su-tab>
@@ -521,7 +521,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="red inverted">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -573,7 +573,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-tabset class="secondary">
           <su-tab title="First">
             <su-tabset class="top tabular">

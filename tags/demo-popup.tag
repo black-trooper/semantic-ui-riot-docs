@@ -32,7 +32,7 @@
       <su-popup class="ui icon button" tooltip="Add users to your feed" position="left center">Left Center</su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup class="ui icon button" tooltip="Add users to your feed" position="top left">Top Left</su-popup>
         <su-popup class="ui icon button" tooltip="Add users to your feed" position="top center">Top Center</su-popup>
         <su-popup class="ui icon button" tooltip="Add users to your feed" position="top right">Top Right</su-popup>
@@ -63,7 +63,7 @@
       <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="/images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup data-title="Elliot Fu" tooltip="Elliot has been a member since July 2012"><img src="/images/avatar/small/elliot.jpg" class="ui avatar image" /></su-popup>
         <su-popup data-title="Stevie Feliciano" tooltip="Stevie has been a member since August 2013"><img src="/images/avatar/small/stevie.jpg" class="ui avatar image" /></su-popup>
         <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="/images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
@@ -116,7 +116,7 @@
       </su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup class="ui card">
           <div class="content">
             <div class="header">My Neighbor Totoro</div>
@@ -179,7 +179,7 @@
       </su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup tooltip="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide."
           data-variation="wide">
           <i class="circular heart icon link"></i>
@@ -218,7 +218,7 @@
       </su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       </code></pre>
     </div>
   </section>
@@ -252,7 +252,7 @@
       </su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup tooltip="Hello. This is a mini popup" data-variation="mini">
           <i class="circular heart icon link"></i>
         </su-popup>
@@ -291,7 +291,7 @@
       </su-popup>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-popup tooltip="Hello. This is a mini popup" data-variation="inverted">
           <i class="circular heart icon link"></i>
         </su-popup>

@@ -24,7 +24,7 @@
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -57,7 +57,7 @@
       <su-dropdown items="{ dropdownItems9 }" class="fluid"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }" class="fluid" ></su-dropdown>
 
       <script>
@@ -117,7 +117,7 @@
       <su-dropdown items="{ dropdownItems2 }" search="true"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }" search="true"></su-dropdown>
 
       <script>
@@ -198,7 +198,7 @@
       <su-dropdown items="{ dropdownItems8 }" multiple="true"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }" multiple="true"></su-dropdown>
 
       <script>
@@ -251,7 +251,7 @@
       <su-dropdown items="{ dropdownItems3 }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -298,7 +298,7 @@
       <su-dropdown items="{ dropdownItems4 }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -348,7 +348,7 @@
       <su-dropdown items="{ dropdownItems5 }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -401,7 +401,7 @@
       <su-dropdown items="{ dropdownItems6 }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -453,7 +453,7 @@
       <su-dropdown items="{ dropdownItems7 }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
 
       <script>
@@ -526,7 +526,7 @@
       <su-dropdown items="{ dropdownItems12 }" class="read-only" search="true"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-dropdown class="read-only"></su-dropdown>
       </code></pre>
     </div>
@@ -546,7 +546,7 @@
       <su-dropdown items="{ dropdownItems12 }" class="disabled"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-dropdown class="disabled"></su-dropdown>
       </code></pre>
     </div>
@@ -583,7 +583,7 @@
       <button type="button" click="{ setRefValue.bind(this, 2) }" class="ui button">Select Female</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }" ref="dropdown1"></su-dropdown>
 
       <div class="ui message">
@@ -647,7 +647,7 @@
       <button type="button" click="{ setMultiRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
       <su-dropdown items="{ dropdownItems }" ref="dropdown2" multiple="true"></su-dropdown>
 
       <div class="ui message">
@@ -718,7 +718,7 @@
       </div>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-dropdown items="{ dropdownItems }" ref="dropdown"></su-dropdown>
         <div class="ui message">
           <ul>

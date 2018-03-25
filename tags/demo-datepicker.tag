@@ -28,7 +28,7 @@
       <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker ref="datepicker" />
         <div class="ui message">
           <b>value</b> : { refs.datepicker.value }
@@ -72,7 +72,7 @@
       <su-datepicker popup="true" />
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker popup="true" />
       </code></pre>
     </div>
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker value="{ new Date(2017,0,25) }" ref="datepicker2" />
         <div class="ui message">
           <b>value</b> : { refs.datepicker2.value }
@@ -123,7 +123,7 @@
       <su-datepicker class="read-only" />
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker class="read-only" />
     </code></pre>
     </div>
@@ -137,7 +137,7 @@
       <su-datepicker popup="true" class="read-only" />
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker popup="true" class="read-only" />
       </code></pre>
     </div>
@@ -157,7 +157,7 @@
       <su-datepicker class="disabled" />
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker class="disabled" />
       </code></pre>
     </div>
@@ -171,7 +171,7 @@
       <su-datepicker popup="true" class="disabled" />
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre><code class="prettyprint">
+      <pre class="prettyprint"><code>
         <su-datepicker popup="true" class="disabled" />
       </code></pre>
     </div>

@@ -1,5 +1,29 @@
 const webpack = require('webpack');
 const path = require('path');
+const escapeHtml = require('escape-html')
+
+const escapeCode = code => {
+  code = escapeHtml(code).replace(/{/g, '\\{').replace(/}/g, '\\}')
+  var minLength = -1
+  code.split("\n").forEach(element => {
+    if (ltrim(element).length === 0) {
+      return;
+    }
+    var length = element.length - ltrim(element).length;
+    if (minLength === -1 || minLength > length) {
+      minLength = length;
+    }
+  });
+  return code.split("\n").filter((element, index) => {
+    return !(index === 0 && ltrim(element).length === 0);
+  }).map(element => {
+    return element.substring(minLength)
+  }).join("\n");
+}
+
+const ltrim = target => {
+  return target.replace(/^\s+/, "");
+}
 
 module.exports = {
   module: {
@@ -13,6 +37,13 @@ module.exports = {
             options: {
               type: 'es6', // transpile the riot tags using babel
               hot: true
+            }
+          },
+          {
+            loader: './xmp-escape-loader/index.js',
+            options: {
+              tag: '<code>',
+              escapeHtml: escapeCode
             }
           },
           {
