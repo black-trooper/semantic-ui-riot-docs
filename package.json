@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Semantic UI Riot Document",
   "scripts": {
-    "start": "webpack-dev-server --mode development --inline --watch --hot --port 3000 --open",
+    "start": "webpack-dev-server --mode development --inline --watch --hot --content-base ./docs --port 3000 --open",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
