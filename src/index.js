@@ -4,12 +4,12 @@ import 'semantic-ui-riot'
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
 import '../tags/demo-checkbox.tag'
-// import '../tags/demo-datepicker.tag'
-// import '../tags/demo-dropdown.tag'
-// import '../tags/demo-modal.tag'
-// import '../tags/demo-popup.tag'
-// import '../tags/demo-radio.tag'
-// import '../tags/demo-tab.tag'
+import '../tags/demo-datepicker.tag'
+import '../tags/demo-dropdown.tag'
+import '../tags/demo-modal.tag'
+import '../tags/demo-popup.tag'
+import '../tags/demo-radio.tag'
+import '../tags/demo-tab.tag'
 
 route('', () => {
   riot.mount('content', 'root')
