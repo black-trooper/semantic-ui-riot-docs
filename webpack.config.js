@@ -40,7 +40,7 @@ module.exports = {
             }
           },
           {
-            loader: './xmp-escape-loader/index.js',
+            loader: 'xmp-escape-loader',
             options: {
               tag: '<code>',
               escapeHtml: escapeCode
