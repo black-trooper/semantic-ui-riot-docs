@@ -26,6 +26,9 @@ const ltrim = target => {
 }
 
 module.exports = {
+  output: {
+    path: __dirname + '/docs/'
+  },
   module: {
     rules: [
       {
