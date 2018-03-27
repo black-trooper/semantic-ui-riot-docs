@@ -46,7 +46,7 @@ module.exports = {
             loader: 'xmp-escape-loader',
             options: {
               tag: '<code>',
-              escapeHtml: escapeCode
+              escape: escapeCode
             }
           },
           {
