@@ -568,7 +568,7 @@
       <i class="icon code" onclick="{ toggleExample }"></i>
     </div>
     <div class="ui segment bottom attached">
-      <su-dropdown items="{ dropdownItems10 }" ref="dropdown1"></su-dropdown>
+      <su-dropdown items="{ dropdownItems10 }" ref="dropdown1" value="{ 1 }"></su-dropdown>
 
       <div class="ui message">
         <div class="header">
@@ -584,7 +584,7 @@
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
-      <su-dropdown items="{ dropdownItems }" ref="dropdown1"></su-dropdown>
+      <su-dropdown items="{ dropdownItems }" ref="dropdown1" value="{ 1 }"></su-dropdown>
 
       <div class="ui message">
         <div class="header">
@@ -634,7 +634,7 @@
       <i class="icon code" onclick="{ toggleExample }"></i>
     </div>
     <div class="ui segment bottom attached">
-      <su-dropdown items="{ dropdownItems11 }" ref="dropdown2" multiple="true"></su-dropdown>
+      <su-dropdown items="{ dropdownItems11 }" ref="dropdown2" multiple="true" value="{['design', 'ember']}"></su-dropdown>
 
       <div class="ui message">
         <div class="header">
@@ -648,7 +648,7 @@
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
-      <su-dropdown items="{ dropdownItems }" ref="dropdown2" multiple="true"></su-dropdown>
+      <su-dropdown items="{ dropdownItems }" ref="dropdown2" multiple="true" value="{['design', 'ember']}"></su-dropdown>
 
       <div class="ui message">
         <div class="header">
@@ -750,6 +750,10 @@
             })
             this.refs.dropdown.on('change', target => {
               this.singleMessage.push(`Changed. label: ${target.label}, value: ${target.value}`)
+              this.update()
+            })
+            this.refs.dropdown.on('blur', target => {
+              this.singleMessage.push(`Blur. label: ${target.label}, value: ${target.value}`)
               this.update()
             })
           })
@@ -1144,6 +1148,10 @@
       })
       this.refs.dropdown3.on('change', target => {
         this.singleMessage.push(`Changed. label: ${target.label}, value: ${target.value}`)
+        this.update()
+      })
+      this.refs.dropdown3.on('blur', target => {
+        this.singleMessage.push(`Blur. label: ${target.label}, value: ${target.value}`)
         this.update()
       })
     })

@@ -3,7 +3,7 @@
     <div class="item">
       <strong>Semantic UI Riot
           <small>
-              <em>0.4.8</em>
+              <em>0.4.9</em>
           </small>
       </strong>
     </div>
