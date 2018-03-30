@@ -576,11 +576,13 @@
         </div>
         <p>value: { refs.dropdown1.value }</p>
         <p>label: { refs.dropdown1.label }</p>
+        <p>changed: { refs.dropdown1.changed() }</p>
       </div>
 
       <button type="button" click="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
       <button type="button" click="{ setRefValue.bind(this, 1) }" class="ui button">Select Male</button>
       <button type="button" click="{ setRefValue.bind(this, 2) }" class="ui button">Select Female</button>
+      <button type="button" click="{ reset }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
@@ -592,11 +594,13 @@
         </div>
         <p>value: { refs.dropdown1.value }</p>
         <p>label: { refs.dropdown1.label }</p>
+        <p>changed: { refs.dropdown1.changed() }</p>
       </div>
 
       <button type="button" click="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
       <button type="button" click="{ setRefValue.bind(this, 1) }" class="ui button">Select Male</button>
       <button type="button" click="{ setRefValue.bind(this, 2) }" class="ui button">Select Female</button>
+      <button type="button" click="{ reset }" class="ui button">Reset</button>
 
       <script>
         this.dropdownItems = [
@@ -617,6 +621,9 @@
 
         this.setRefValue = value => {
           this.refs.dropdown1.value = value
+        }
+        this.reset = () => {
+          this.refs.dropdown1.reset()
         }
       </script>
     </code></pre>
@@ -641,10 +648,12 @@
           Selected value
         </div>
         <p>value: { refs.dropdown2.value }</p>
+        <p>changed: { refs.dropdown2.changed() }</p>
       </div>
 
       <button type="button" click="{ setMultiRefValue.bind(this, null) }" class="ui button">Select Default</button>
       <button type="button" click="{ setMultiRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
+      <button type="button" click="{ resetMulti }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
@@ -655,10 +664,12 @@
           Selected value
         </div>
         <p>value: { refs.dropdown2.value }</p>
+        <p>changed: { refs.dropdown2.changed() }</p>
       </div>
 
       <button type="button" click="{ setMultiRefValue.bind(this, null) }" class="ui button">Select Default</button>
       <button type="button" click="{ setMultiRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
+      <button type="button" click="{ reset }" class="ui button">Reset</button>
 
       <script>
         this.dropdownItems = [
@@ -689,6 +700,9 @@
 
         this.setRefValue = value => {
           this.refs.dropdown1.value = value
+        }
+        this.reset = () => {
+          this.refs.dropdown1.reset()
         }
       </script>
     </code></pre>
@@ -1135,9 +1149,16 @@
     this.setRefValue = value => {
       this.refs.dropdown1.value = value
     }
+    this.reset = () => {
+      this.refs.dropdown1.reset()
+    }
+
     this.setMultiRefValue = values => {
       this.refs.dropdown2.value = values
       this.update()
+    }
+    this.resetMulti = () => {
+      this.refs.dropdown2.reset()
     }
 
     this.singleMessage = []
