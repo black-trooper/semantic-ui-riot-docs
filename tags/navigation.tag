@@ -2,8 +2,8 @@
   <div class="ui inverted vertical left fixed menu">
     <div class="item">
       <strong>Semantic UI Riot
-          <small>
-              <em>0.5.1</em>
+          <small>	
+              <small><em>{ version }</em></small>
           </small>
       </strong>
     </div>
@@ -32,4 +32,7 @@
       </div>
     </div>
   </div>
+  <script>
+    this.version = require('../package.json').dependencies['semantic-ui-riot']
+  </script>
 </navigation>
