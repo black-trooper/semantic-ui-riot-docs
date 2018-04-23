@@ -22,19 +22,23 @@
     <div class="ui segment bottom attached">
       <su-datepicker ref="datepicker" />
       <div class="ui message">
-        <b>value</b> : { refs.datepicker.value }
+        <p><b>value</b> : { refs.datepicker.value }</p>
+        <p><b>changed</b>: { refs.datepicker.changed() }</p>
       </div>
       <button type="button" class="ui button" click="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
       <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
+      <button type="button" click="{ reset }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
         <su-datepicker ref="datepicker" />
         <div class="ui message">
-          <b>value</b> : { refs.datepicker.value }
+          <p><b>value</b> : { refs.datepicker.value }</p>
+          <p><b>changed</b>: { refs.datepicker.changed() }</p>
         </div>
         <button type="button" class="ui button" click="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
         <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
+        <button type="button" click="{ reset }" class="ui button">Reset</button>
 
         <script>
           this.setDate = date => {
@@ -45,6 +49,10 @@
             this.refs.datepicker.opts.currentDate = date
           }
 
+          this.reset = () => {
+            this.refs.datepicker.reset()
+          }
+        
           this.on('mount', () => {
             this.refs.datepicker.on('change', () => {
               this.update()
@@ -96,15 +104,19 @@
     <div class="ui segment bottom attached">
       <su-datepicker value="{ new Date(2017,0,25) }" ref="datepicker2" />
       <div class="ui message">
-        <b>value</b> : { refs.datepicker2.value }
+        <p><b>value</b> : { refs.datepicker2.value }</p>
+        <p><b>changed</b>: { refs.datepicker2.changed() }</p>
       </div>
+      <button type="button" click="{ reset2 }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
         <su-datepicker value="{ new Date(2017,0,25) }" ref="datepicker2" />
         <div class="ui message">
-          <b>value</b> : { refs.datepicker2.value }
+          <p><b>value</b> : { refs.datepicker2.value }</p>
+          <p><b>changed</b>: { refs.datepicker2.changed() }</p>
         </div>
+        <button type="button" click="{ reset2 }" class="ui button">Reset</button>
       </code></pre>
     </div>
   </section>
@@ -184,6 +196,14 @@
 
     this.navigateTo = date => {
       this.refs.datepicker.opts.currentDate = date
+    }
+    
+    this.reset = () => {
+      this.refs.datepicker.reset()
+    }
+
+    this.reset2 = () => {
+      this.refs.datepicker2.reset()
     }
 
     this.on('mount', () => {
