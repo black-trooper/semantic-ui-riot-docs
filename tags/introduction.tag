@@ -51,7 +51,7 @@
   </section>
 
   <section>
-    <h3 class="ui header" id="webpack">2) Use with webpacke</h3>
+    <h3 class="ui header" id="webpack">2) Use with webpack</h3>
 
     <div class="ui inverted segment">
       <pre class="prettyprint"><code>
