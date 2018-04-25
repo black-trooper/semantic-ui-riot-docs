@@ -27,7 +27,8 @@ riot.mount('*')
 riot.mixin({
   init: function () {
     this.on('mount', () => {
-      PR.prettyPrint(false)
+      if (typeof PR !== 'undefined')
+        PR.prettyPrint(false)
     })
   },
 
