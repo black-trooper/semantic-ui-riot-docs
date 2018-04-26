@@ -2,9 +2,11 @@
   <div class="ui inverted vertical left fixed menu">
     <div class="item">
       <strong>Semantic UI Riot
-          <small>	
-              <small><em>{ version }</em></small>
+        <small>
+          <small>
+            <em>{ version }</em>
           </small>
+        </small>
       </strong>
     </div>
 

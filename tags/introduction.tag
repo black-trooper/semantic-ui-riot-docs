@@ -5,14 +5,16 @@
   </h1>
   <h2 class="ui dividing header" id="introduction">Introduction</h2>
   <p>
-    Semantic UI Riot is <a href="https://semantic-ui.com/">Riot</a> integration for <a href="https://semantic-ui.com/">Semantic UI</a>.
+    Semantic UI Riot is
+    <a href="https://semantic-ui.com/">Riot</a> integration for
+    <a href="https://semantic-ui.com/">Semantic UI</a>.
     <div class="ui images">
       <a href="https://semantic-ui.com/">
         <img class="ui mini image" src="https://semantic-ui.com/images/logo.png" />
       </a>
       <a href="http://riotjs.com/">
-          <img class="ui tiny image" src="http://riotjs.com/img/logo/riot120x.png" />
-        </a>
+        <img class="ui tiny image" src="http://riotjs.com/img/logo/riot120x.png" />
+      </a>
     </div>
 
   </p>
