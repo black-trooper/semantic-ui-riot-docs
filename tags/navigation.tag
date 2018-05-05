@@ -24,6 +24,7 @@
     <div class="item">
       <div class="header">Module</div>
       <div class="menu">
+        <a class="item" href="#demo-accordion">Accordion</a>
         <a class="item" href="#demo-checkbox">Checkbox</a>
         <a class="item" href="#demo-datepicker">Datepicker</a>
         <a class="item" href="#demo-dropdown">Dropdown</a>

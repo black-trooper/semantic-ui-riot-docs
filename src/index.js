@@ -4,6 +4,7 @@ import 'semantic-ui-riot'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
+import '../tags/demo-accordion.tag'
 import '../tags/demo-checkbox.tag'
 import '../tags/demo-datepicker.tag'
 import '../tags/demo-dropdown.tag'
