@@ -21,8 +21,21 @@
   <!--                                                 ====== -->
   <accordion-styled></accordion-styled>
 
+  <!-- =================================================================================== -->
+  <!--                                                                               Types -->
+  <!-- =================================================================================== -->
+  <h2 class="ui dividing header">Variations
+    <a class="anchor" id="variations"></a>
+  </h2>
+
+  <!-- ====================================================== -->
+  <!--                                                  Fluid -->
+  <!--                                                  ===== -->
+  <accordion-fluid></accordion-fluid>
+
   <script>
     import './accordion/accordion-standard.tag'
     import './accordion/accordion-styled.tag'
+    import './accordion/accordion-fluid.tag'
   </script>
 </demo-accordion>
