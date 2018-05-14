@@ -38,10 +38,16 @@
   <!--                                               ======== -->
   <accordion-inverted></accordion-inverted>
 
+  <!-- ====================================================== -->
+  <!--                                                 Nested -->
+  <!--                                                 ====== -->
+  <accordion-nested></accordion-nested>
+
   <script>
     import './accordion/accordion-standard.tag'
     import './accordion/accordion-styled.tag'
     import './accordion/accordion-fluid.tag'
     import './accordion/accordion-inverted.tag'
+    import './accordion/accordion-nested.tag'
   </script>
 </demo-accordion>
