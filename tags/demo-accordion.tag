@@ -43,11 +43,17 @@
   <!--                                                 ====== -->
   <accordion-nested></accordion-nested>
 
+  <!-- ====================================================== -->
+  <!--                                                   Menu -->
+  <!--                                                   ==== -->
+  <accordion-menu></accordion-menu>
+
   <script>
     import './accordion/accordion-standard.tag'
     import './accordion/accordion-styled.tag'
     import './accordion/accordion-fluid.tag'
     import './accordion/accordion-inverted.tag'
     import './accordion/accordion-nested.tag'
+    import './accordion/accordion-menu.tag'
   </script>
 </demo-accordion>
