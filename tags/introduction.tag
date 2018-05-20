@@ -12,8 +12,8 @@
       <a href="https://semantic-ui.com/">
         <img class="ui mini image" src="https://semantic-ui.com/images/logo.png" />
       </a>
-      <a href="http://riotjs.com/">
-        <img class="ui tiny image" src="http://riotjs.com/img/logo/riot120x.png" />
+      <a href="https://riot.js.org/">
+        <img class="ui tiny image" src="https://riot.js.org/img/logo/riot120x.png" />
       </a>
     </div>
 
