@@ -31,10 +31,11 @@
   &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css"&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;sample>&lt;/sample&gt;
-  &lt;script type="riot/tag" src="sample.tag">&lt;/script&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/riot@3.9/riot+compiler.min.js">&lt;/script&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js">&lt;/script&gt;
+  &lt;sample&gt;&lt;/sample&gt;
+  &lt;script type="riot/tag" src="sample.tag"&gt;&lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/riot@3.9/riot+compiler.min.js"&gt;&lt;/script&gt; 
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"&gt;&lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js"&gt;&lt;/script&gt;
   &lt;script&gt;
     riot.mount('sample')
   &lt;/script&gt;
@@ -88,6 +89,7 @@
           new webpack.LoaderOptionsPlugin({ options: {} }),
           new webpack.ProvidePlugin({
             riot: 'riot',
+            dateFns: 'date-fns',
           })
         ]
       };
