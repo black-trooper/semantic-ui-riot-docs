@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --inline --watch --hot --content-base ./ --port 3000 --open",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "prod": "webpack --mode production",
+    "build": "npm run prod"
   },
   "keywords": [
     "riotjs",
