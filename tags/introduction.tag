@@ -67,8 +67,8 @@
       <pre class="prettyprint"><code>
         import riot from 'riot'
         import 'semantic-ui-riot'
-        import './app.tag'
-        riot.mount('app')
+        import './sample.tag'
+        riot.mount('sample')
     </code></pre>
     </div>
 
