@@ -52,7 +52,7 @@
           this.reset = () => {
             this.refs.datepicker.reset()
           }
-        
+
           this.on('mount', () => {
             this.refs.datepicker.on('change', () => {
               this.update()
@@ -83,6 +83,22 @@
       <pre class="prettyprint"><code>
         <su-datepicker popup="true" />
       </code></pre>
+    </div>
+  </section>
+
+  <p>Format the value of the input field.</p>
+  <section>
+    <div class="ui segment secondary top attached example">
+      Example
+      <i class="icon code link" onclick="{ toggleExample }"></i>
+    </div>
+    <div class="ui segment bottom attached">
+      <su-datepicker popup="true" pattern="YYYY/MM/DD" />
+    </div>
+    <div class="ui segment bottom attached inverted transition hidden">
+      <pre class="prettyprint"><code>
+          <su-datepicker popup="true" pattern="YYYY/MM/DD" />
+        </code></pre>
     </div>
   </section>
 
@@ -189,7 +205,69 @@
     </div>
   </section>
 
+  <!-- =================================================================================== -->
+  <!--                                                                                i18n -->
+  <!-- =================================================================================== -->
+  <h2 class="ui dividing header">Internationalization<a class="anchor" id="i18n"></a></h2>
+  <p>This component relies on a third party date management library called date-fns.
+    <br/>Please refer to the
+    <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a> for supported languages.</p>
+
+  <section>
+    <div class="ui segment secondary top attached example">
+      Example
+      <i class="icon code" onclick="{ toggleExample }"></i>
+    </div>
+    <div class="ui segment bottom attached">
+      <su-datepicker locale="{ localeJa }" />
+    </div>
+    <div class="ui segment bottom attached inverted transition hidden">
+      <pre class="prettyprint"><code>
+        <su-datepicker locale="{ localeJa }" />
+        <script>
+          import locale_ja from 'date-fns/locale/ja'
+          this.localeJa = locale_ja
+        </script>
+      </code></pre>
+    </div>
+  </section>
+
+  <!-- =================================================================================== -->
+  <!--                                                                     Default Options -->
+  <!-- =================================================================================== -->
+  <h2 class="ui dividing header">Default Options<a class="anchor" id="options"></a></h2>
+  <p>i18n and popup.</p>
+
+  <h4>index.js</h4>
+  <div class="ui inverted segment">
+    <pre class="prettyprint"><code>
+      import riot from 'riot'
+      import su_riot from 'semantic-ui-riot'
+      import locale_ja from 'date-fns/locale/ja'
+      import './sample.tag'
+
+      su_riot({
+        locale: locale_ja, // Locale of su-datepicker
+        pattern: 'YYYY/MM/DD', // Pattern of input field in su-datepciker
+      })
+      riot.mount('sample')
+    </code></pre>
+  </div>
+
+  <h4>sample.tag</h4>
+  <div class="ui inverted segment">
+    <pre class="prettyprint"><code>
+      <sample>
+        <su-datepicker popup="true" />
+      </sample>
+    </code></pre>
+  </div>
+  </section>
+
   <script>
+    import locale_ja from 'date-fns/locale/ja'
+    this.localeJa = locale_ja
+
     this.setDate = date => {
       this.refs.datepicker.value = date
     }
@@ -197,7 +275,7 @@
     this.navigateTo = date => {
       this.refs.datepicker.opts.currentDate = date
     }
-    
+
     this.reset = () => {
       this.refs.datepicker.reset()
     }
