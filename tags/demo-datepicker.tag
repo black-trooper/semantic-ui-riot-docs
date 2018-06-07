@@ -236,7 +236,7 @@
   <!--                                                                     Default Options -->
   <!-- =================================================================================== -->
   <h2 class="ui dividing header">Default Options<a class="anchor" id="options"></a></h2>
-  <p>i18n and popup.</p>
+  <p>You can set the date format and locale without setting every time.</p>
 
   <h4>index.js</h4>
   <div class="ui inverted segment">
