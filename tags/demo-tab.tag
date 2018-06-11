@@ -44,6 +44,11 @@
   <!--                                                 ====== -->
   <tab-active></tab-active>
 
+  <!-- ====================================================== -->
+  <!--                                             Lazy mount -->
+  <!--                                             ========== -->
+  <tab-lazymount></tab-lazymount>
+
   <!-- =================================================================================== -->
   <!--                                                                          Variations -->
   <!-- =================================================================================== -->
@@ -79,5 +84,6 @@
     import './tab/tab-inverted.tag'
     import './tab/tab-colored.tag'
     import './tab/tab-multiple.tag'
+    import './tab/tab-lazymount.tag'
   </script>
 </demo-tab>
