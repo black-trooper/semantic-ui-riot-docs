@@ -28,7 +28,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css"&gt;
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css"&gt;
 &lt;/head&gt;
 &lt;body&gt;
   &lt;sample&gt;&lt;/sample&gt;
@@ -103,7 +103,7 @@
       <!DOCTYPE html>
       <html>
         <head>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
         </head>
         <body>
           <sample></sample>
