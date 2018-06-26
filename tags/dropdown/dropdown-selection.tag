@@ -237,13 +237,5 @@
       { label: '1978', value: '1978' },
       { label: '1979', value: '1979' },
     ]
-    this.on('mount', () => {
-
-      $('#hoge').click(() => {
-        // console.log('click')
-        $('su-select select:first').val('1979').trigger('change').change()
-        // $('su-select select:first').focus()
-      })
-    })
   </script>
 </dropdown-selection>
