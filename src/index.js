@@ -27,7 +27,7 @@ route(collection => {
   riot.mount('content', collection)
 })
 
-route.base('/')
+route.base('/semantic-ui-riot-docs/')
 route.start(true)
 
 riot.mount('*')
