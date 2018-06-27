@@ -34,7 +34,7 @@
     <div class="item">
       <div class="header">Getting Started</div>
       <div class="menu">
-        <a class="item" href="#">Introduction</a>
+        <a class="item" href="/">Introduction</a>
         <a href="https://github.com/black-trooper/semantic-ui-riot" class="item">
           <i aria-hidden="true" class="github icon"></i>
           GitHub
@@ -45,14 +45,14 @@
     <div class="item">
       <div class="header">Module</div>
       <div class="menu">
-        <a class="item" click="{ hideMenu }" href="#demo-accordion">Accordion</a>
-        <a class="item" click="{ hideMenu }" href="#demo-checkbox">Checkbox</a>
-        <a class="item" click="{ hideMenu }" href="#demo-datepicker">Datepicker</a>
-        <a class="item" click="{ hideMenu }" href="#demo-dropdown">Dropdown</a>
-        <a class="item" click="{ hideMenu }" href="#demo-modal">Modal</a>
-        <a class="item" click="{ hideMenu }" href="#demo-popup">Popup</a>
-        <a class="item" click="{ hideMenu }" href="#demo-radio">Radio</a>
-        <a class="item" click="{ hideMenu }" href="#demo-tab">Tab</a>
+        <a class="item" click="{ hideMenu }" href="demo-accordion">Accordion</a>
+        <a class="item" click="{ hideMenu }" href="demo-checkbox">Checkbox</a>
+        <a class="item" click="{ hideMenu }" href="demo-datepicker">Datepicker</a>
+        <a class="item" click="{ hideMenu }" href="demo-dropdown">Dropdown</a>
+        <a class="item" click="{ hideMenu }" href="demo-modal">Modal</a>
+        <a class="item" click="{ hideMenu }" href="demo-popup">Popup</a>
+        <a class="item" click="{ hideMenu }" href="demo-radio">Radio</a>
+        <a class="item" click="{ hideMenu }" href="demo-tab">Tab</a>
       </div>
     </div>
   </div>

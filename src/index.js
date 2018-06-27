@@ -13,6 +13,12 @@ import '../tags/demo-popup.tag'
 import '../tags/demo-radio.tag'
 import '../tags/demo-tab.tag'
 
+const redirect = sessionStorage.redirect
+delete sessionStorage.redirect
+if (redirect && redirect !== location.href) {
+  history.replaceState(null, null, redirect)
+}
+
 route('', () => {
   riot.mount('content', 'root')
 })
@@ -21,6 +27,7 @@ route(collection => {
   riot.mount('content', collection)
 })
 
+route.base('/')
 route.start(true)
 
 riot.mount('*')
