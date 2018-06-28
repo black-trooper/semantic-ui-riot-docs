@@ -1,4 +1,5 @@
 <tab-colored>
+  <a class="anchor" name="colored"></a>
   <h3 class="ui header">Colored</h3>
   <p>Additional colors can be specified.</p>
   <section>

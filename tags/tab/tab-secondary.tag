@@ -1,4 +1,5 @@
 <tab-secondary>
+  <a class="anchor" name="secondary-menu"></a>
   <h3 class="ui header">Secondary Menu</h3>
   <p>A menu can adjust its appearance to de-emphasize its contents.</p>
   <section>

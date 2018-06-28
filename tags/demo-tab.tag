@@ -1,79 +1,120 @@
 <demo-tab>
-  <h1 class="ui header">
-    Tab
-    <div class="sub header">A tab is a hidden section of content activated by a menu</div>
-  </h1>
+  <div class="ui masthead vertical segment">
+    <h1 class="ui header">
+      Tab
+      <div class="sub header">A tab is a hidden section of content activated by a menu</div>
+    </h1>
+  </div>
 
-  <!-- =================================================================================== -->
-  <!--                                                                               Types -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
+  <div class="main container">
+    <div class="ui dividing right rail">
+      <div class="sticky">
+        <h4 class="ui header">Dropdown</h4>
+        <div class="ui vertical text menu">
+          <div class="item">
+            <div class="header">Types</div>
+            <div class="menu">
+              <a class="item" href="#basic">Basic</a>
+              <a class="item" href="#secondary-menu">Secondary Menu</a>
+              <a class="item" href="#pointing">Pointing</a>
+              <a class="item" href="#attached">Attached</a>
+              <a class="item" href="#tabular">Tabular</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">States</div>
+            <div class="menu">
+              <a class="item" href="#active">Active</a>
+              <a class="item" href="#lazy-mount">Lazy mount</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Variations</div>
+            <div class="menu">
+              <a class="item" href="#inverted">Inverted</a>
+              <a class="item" href="#colored">Colored</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Multiple</div>
+            <div class="menu">
+              <a class="item" href="#multiple-tab-groups">Multiple Tab Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- ====================================================== -->
-  <!--                                                  Basic -->
-  <!--                                                  ===== -->
-  <tab-basic></tab-basic>
+    <!-- =================================================================================== -->
+    <!--                                                                               Types -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
 
-  <!-- ====================================================== -->
-  <!--                                         Secondary Menu -->
-  <!--                                         ============== -->
-  <tab-secondary></tab-secondary>
+    <!-- ====================================================== -->
+    <!--                                                  Basic -->
+    <!--                                                  ===== -->
+    <tab-basic></tab-basic>
 
-  <!-- ====================================================== -->
-  <!--                                               Pointing -->
-  <!--                                               ======== -->
-  <tab-pointing></tab-pointing>
+    <!-- ====================================================== -->
+    <!--                                         Secondary Menu -->
+    <!--                                         ============== -->
+    <tab-secondary></tab-secondary>
 
-  <!-- ====================================================== -->
-  <!--                                               Attached -->
-  <!--                                               ======== -->
-  <tab-attached></tab-attached>
+    <!-- ====================================================== -->
+    <!--                                               Pointing -->
+    <!--                                               ======== -->
+    <tab-pointing></tab-pointing>
 
-  <!-- ====================================================== -->
-  <!--                                                Tabular -->
-  <!--                                                ======= -->
-  <tab-tabular></tab-tabular>
+    <!-- ====================================================== -->
+    <!--                                               Attached -->
+    <!--                                               ======== -->
+    <tab-attached></tab-attached>
 
-  <!-- =================================================================================== -->
-  <!--                                                                              States -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
+    <!-- ====================================================== -->
+    <!--                                                Tabular -->
+    <!--                                                ======= -->
+    <tab-tabular></tab-tabular>
 
-  <!-- ====================================================== -->
-  <!--                                                 Active -->
-  <!--                                                 ====== -->
-  <tab-active></tab-active>
+    <!-- =================================================================================== -->
+    <!--                                                                              States -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
 
-  <!-- ====================================================== -->
-  <!--                                             Lazy mount -->
-  <!--                                             ========== -->
-  <tab-lazymount></tab-lazymount>
+    <!-- ====================================================== -->
+    <!--                                                 Active -->
+    <!--                                                 ====== -->
+    <tab-active></tab-active>
 
-  <!-- =================================================================================== -->
-  <!--                                                                          Variations -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Variations<a class="anchor" id="variations"></a></h2>
+    <!-- ====================================================== -->
+    <!--                                             Lazy mount -->
+    <!--                                             ========== -->
+    <tab-lazymount></tab-lazymount>
 
-  <!-- ====================================================== -->
-  <!--                                               Inverted -->
-  <!--                                               ======== -->
-  <tab-inverted></tab-inverted>
+    <!-- =================================================================================== -->
+    <!--                                                                          Variations -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Variations<a class="anchor" id="variations"></a></h2>
 
-  <!-- ====================================================== -->
-  <!--                                                Colored -->
-  <!--                                                ======= -->
-  <tab-colored></tab-colored>
+    <!-- ====================================================== -->
+    <!--                                               Inverted -->
+    <!--                                               ======== -->
+    <tab-inverted></tab-inverted>
 
-  <!-- =================================================================================== -->
-  <!--                                                                            Multiple -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Multiple<a class="anchor" id="multiple"></a></h2>
+    <!-- ====================================================== -->
+    <!--                                                Colored -->
+    <!--                                                ======= -->
+    <tab-colored></tab-colored>
 
-  <!-- ====================================================== -->
-  <!--                                    Multiple Tab Groups -->
-  <!--                                    =================== -->
-  <tab-multiple></tab-multiple>
+    <!-- =================================================================================== -->
+    <!--                                                                            Multiple -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Multiple<a class="anchor" id="multiple"></a></h2>
 
+    <!-- ====================================================== -->
+    <!--                                    Multiple Tab Groups -->
+    <!--                                    =================== -->
+    <tab-multiple></tab-multiple>
+  </div>
   <script>
     import './tab/tab-basic.tag'
     import './tab/tab-secondary.tag'

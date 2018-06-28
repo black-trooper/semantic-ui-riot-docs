@@ -1,4 +1,5 @@
 <tab-pointing>
+  <a class="anchor" name="pointing"></a>
   <h3 class="ui header">Pointing</h3>
   <p>A menu can point to show its relationship to nearby content.</p>
   <section>

@@ -1,4 +1,5 @@
 <tab-basic>
+  <a class="anchor" name="basic"></a>
   <h3 class="ui header">Basic</h3>
   <p>A basic tab.</p>
   <section>

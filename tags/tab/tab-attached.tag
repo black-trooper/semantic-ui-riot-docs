@@ -1,4 +1,5 @@
 <tab-attached>
+  <a class="anchor" name="attached"></a>
   <h3 class="ui header">Attached</h3>
   <p>A menu can be formatted to show tabs of information.</p>
   <section>

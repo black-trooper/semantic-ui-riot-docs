@@ -30,12 +30,41 @@
       margin-left: 15.5rem
     }
 
+    .main.container {
+      margin-right: 387px;
+      position: relative;
+    }
+
+    .ui.right.rail {
+      margin-left: 3em;
+      padding-top: 2em;
+      width: 319px;
+    }
+
+    .sticky {
+      position: sticky;
+      padding-top: 1.5rem;
+      top: 0;
+    }
+
+    content {
+      position: relative;
+    }
+
     @media only screen and (max-width: 1145px) {
       .content-wrapper {
         margin-left: 0;
         margin-top: 3rem;
       }
+      .ui.dividing.right.rail {
+        display: none;
+      }
+      .main.container {
+        margin-right: 0;
+      }
     }
+
+    @media only screen and (min-width: 1145px) {}
   </style>
 </head>
 <body>

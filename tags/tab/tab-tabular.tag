@@ -1,4 +1,5 @@
 <tab-tabular>
+  <a class="anchor" name="tabular"></a>
   <h3 class="ui header">Tabular</h3>
   <p>A menu can be formatted to show tabs of information.</p>
   <section>
