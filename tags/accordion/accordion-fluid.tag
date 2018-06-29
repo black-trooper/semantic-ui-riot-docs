@@ -1,4 +1,5 @@
 <accordion-fluid>
+  <a class="anchor" name="fluid"></a>
   <h3 class="ui header">Fluid</h3>
   <p>An accordion can take up the width of its container</p>
   <section>

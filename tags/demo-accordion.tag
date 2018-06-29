@@ -1,52 +1,80 @@
 <demo-accordion>
-  <h1 class="ui header">
-    Accordion
-    <div class="sub header">An accordion allows users to toggle the display of sections of content</div>
-  </h1>
+  <div class="ui masthead vertical segment">
+    <h1 class="ui header">
+      Accordion
+      <div class="sub header">An accordion allows users to toggle the display of sections of content</div>
+    </h1>
+  </div>
 
-  <!-- =================================================================================== -->
-  <!--                                                                               Types -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Types
-    <a class="anchor" id="types"></a>
-  </h2>
+  <div class="main container">
+    <div class="ui dividing right rail">
+      <div class="sticky">
+        <h4 class="ui header">Accordion</h4>
+        <div class="ui vertical text menu">
+          <div class="item">
+            <div class="header">Types</div>
+            <div class="menu">
+              <a class="item" href="#standard">Standard</a>
+              <a class="item" href="#styled">Styled</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Variations</div>
+            <div class="menu">
+              <a class="item" href="#fluid">Fluid</a>
+              <a class="item" href="#inverted">Inverted</a>
+              <a class="item" href="#nested">Nested</a>
+              <a class="item" href="#menu">Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- ====================================================== -->
-  <!--                                               Standard -->
-  <!--                                               ======== -->
-  <accordion-standard></accordion-standard>
+    <!-- =================================================================================== -->
+    <!--                                                                               Types -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Types
+      <a class="anchor" id="types"></a>
+    </h2>
 
-  <!-- ====================================================== -->
-  <!--                                                 Styled -->
-  <!--                                                 ====== -->
-  <accordion-styled></accordion-styled>
+    <!-- ====================================================== -->
+    <!--                                               Standard -->
+    <!--                                               ======== -->
+    <accordion-standard></accordion-standard>
 
-  <!-- =================================================================================== -->
-  <!--                                                                               Types -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Variations
-    <a class="anchor" id="variations"></a>
-  </h2>
+    <!-- ====================================================== -->
+    <!--                                                 Styled -->
+    <!--                                                 ====== -->
+    <accordion-styled></accordion-styled>
 
-  <!-- ====================================================== -->
-  <!--                                                  Fluid -->
-  <!--                                                  ===== -->
-  <accordion-fluid></accordion-fluid>
+    <!-- =================================================================================== -->
+    <!--                                                                          Variations -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Variations
+      <a class="anchor" id="variations"></a>
+    </h2>
 
-  <!-- ====================================================== -->
-  <!--                                               Inverted -->
-  <!--                                               ======== -->
-  <accordion-inverted></accordion-inverted>
+    <!-- ====================================================== -->
+    <!--                                                  Fluid -->
+    <!--                                                  ===== -->
+    <accordion-fluid></accordion-fluid>
 
-  <!-- ====================================================== -->
-  <!--                                                 Nested -->
-  <!--                                                 ====== -->
-  <accordion-nested></accordion-nested>
+    <!-- ====================================================== -->
+    <!--                                               Inverted -->
+    <!--                                               ======== -->
+    <accordion-inverted></accordion-inverted>
 
-  <!-- ====================================================== -->
-  <!--                                                   Menu -->
-  <!--                                                   ==== -->
-  <accordion-menu></accordion-menu>
+    <!-- ====================================================== -->
+    <!--                                                 Nested -->
+    <!--                                                 ====== -->
+    <accordion-nested></accordion-nested>
+
+    <!-- ====================================================== -->
+    <!--                                                   Menu -->
+    <!--                                                   ==== -->
+    <accordion-menu></accordion-menu>
+  </div>
 
   <script>
     import './accordion/accordion-standard.tag'

@@ -1,4 +1,5 @@
 <accordion-styled>
+  <a class="anchor" name="styled"></a>
   <h3 class="ui header">
     Styled</h3>
   <p>A styled accordion adds basic formatting</p>
