@@ -4,6 +4,7 @@ import 'semantic-ui-riot'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
+import '../tags/content-navigation.tag'
 import '../tags/demo-accordion.tag'
 import '../tags/demo-checkbox.tag'
 import '../tags/demo-datepicker.tag'
@@ -52,5 +53,24 @@ riot.mixin({
       segments[1].classList.add('attached')
       segments[2].classList.add('hidden')
     }
-  }
+  },
+
+  extractNavigation: element => {
+    let navigation = []
+    let section
+    element.querySelectorAll('h2, h3').forEach(item => {
+      if (item.tagName.toLowerCase() == 'h2') {
+        if (section) {
+          navigation.push(section)
+        }
+        section = {}
+        section.header = item.innerText
+        section.items = []
+      } else {
+        section.items.push(item.innerText)
+      }
+    })
+    navigation.push(section)
+    return navigation
+  },
 })

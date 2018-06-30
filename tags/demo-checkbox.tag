@@ -7,47 +7,12 @@
   </div>
 
   <div class="main container">
-    <div class="ui dividing right rail">
-      <div class="sticky">
-        <h4 class="ui header">Checkbox</h4>
-        <div class="ui vertical text menu">
-          <div class="item">
-            <div class="header">Types</div>
-            <div class="menu">
-              <a class="item" href="#standard">Standard</a>
-              <a class="item" href="#slider">Slider</a>
-              <a class="item" href="#toggle">Toggle</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">States</div>
-            <div class="menu">
-              <a class="item" href="#read-only">Read-only</a>
-              <a class="item" href="#checked">Checked</a>
-              <a class="item" href="#disabled">Disabled</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">Update label</div>
-            <div class="menu">
-              <a class="item" href="#update-label">Update label</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">Access elements</div>
-            <div class="menu">
-              <a class="item" href="#ref-attribute">Ref attribute</a>
-              <a class="item" href="#check-attribute">Check attribute</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <content-navigation title="Checkbox" items="{ navigation }" />
 
     <!-- =================================================================================== -->
     <!--                                                                               Types -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
+    <h2 class="ui dividing header">Types</h2>
 
     <!-- ====================================================== -->
     <!--                                               Standard -->
@@ -346,6 +311,11 @@
   </div>
 
   <script>
+    this.on('mount', () => {
+      this.navigation = this.extractNavigation(this.root)
+      this.update()
+    })
+
     this.setCheckboxValue = value => {
       this.checkbox2 = value
     }

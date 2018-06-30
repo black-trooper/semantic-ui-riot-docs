@@ -1,89 +1,94 @@
 <demo-dropdown>
-  <h1 class="ui header">
-    Dropdown
-    <div class="sub header">A dropdown allows a user to select a value from a series of options</div>
-  </h1>
+  <div class="ui masthead vertical segment">
+    <h1 class="ui header">
+      Dropdown
+      <div class="sub header">A dropdown allows a user to select a value from a series of options</div>
+    </h1>
+  </div>
 
-  <!-- =================================================================================== -->
-  <!--                                                                               Types -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
+  <div class="main container">
+    <content-navigation title="Dropdown" items="{ navigation }" />
+    <!-- =================================================================================== -->
+    <!--                                                                               Types -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Types</h2>
 
-  <!-- ====================================================== -->
-  <!--                                              Selection -->
-  <!--                                              ========= -->
-  <dropdown-selection></dropdown-selection>
+    <!-- ====================================================== -->
+    <!--                                              Selection -->
+    <!--                                              ========= -->
+    <dropdown-selection></dropdown-selection>
 
-  <!-- ====================================================== -->
-  <!--                                                 Search -->
-  <!--                                                 ====== -->
-  <dropdown-search></dropdown-search>
+    <!-- ====================================================== -->
+    <!--                                                 Search -->
+    <!--                                                 ====== -->
+    <dropdown-search></dropdown-search>
 
-  <!-- ====================================================== -->
-  <!--                                               Multiple -->
-  <!--                                               ======== -->
-  <dropdown-multiple></dropdown-multiple>
+    <!-- ====================================================== -->
+    <!--                                               Multiple -->
+    <!--                                               ======== -->
+    <dropdown-multiple></dropdown-multiple>
 
-  <!-- =================================================================================== -->
-  <!--                                                                             Content -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Content<a class="anchor" id="content"></a></h2>
+    <!-- =================================================================================== -->
+    <!--                                                                             Content -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Content</h2>
 
-  <!-- ====================================================== -->
-  <!--                                                 Header -->
-  <!--                                                 ====== -->
-  <dropdown-header></dropdown-header>
+    <!-- ====================================================== -->
+    <!--                                                 Header -->
+    <!--                                                 ====== -->
+    <dropdown-header></dropdown-header>
 
-  <!-- ====================================================== -->
-  <!--                                                Divider -->
-  <!--                                                ======= -->
-  <dropdown-divider></dropdown-divider>
+    <!-- ====================================================== -->
+    <!--                                                Divider -->
+    <!--                                                ======= -->
+    <dropdown-divider></dropdown-divider>
 
-  <!-- ====================================================== -->
-  <!--                                                   Icon -->
-  <!--                                                   ==== -->
-  <dropdown-icon></dropdown-icon>
+    <!-- ====================================================== -->
+    <!--                                                   Icon -->
+    <!--                                                   ==== -->
+    <dropdown-icon></dropdown-icon>
 
-  <!-- ====================================================== -->
-  <!--                                            Description -->
-  <!--                                            =========== -->
-  <dropdown-description></dropdown-description>
+    <!-- ====================================================== -->
+    <!--                                            Description -->
+    <!--                                            =========== -->
+    <dropdown-description></dropdown-description>
 
-  <!-- ====================================================== -->
-  <!--                                                  Image -->
-  <!--                                                  ===== -->
-  <dropdown-image></dropdown-image>
+    <!-- ====================================================== -->
+    <!--                                                  Image -->
+    <!--                                                  ===== -->
+    <dropdown-image></dropdown-image>
 
-  <!-- =================================================================================== -->
-  <!--                                                                              States -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
-  <dropdown-states></dropdown-states>
+    <!-- =================================================================================== -->
+    <!--                                                                              States -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">States</h2>
+    <dropdown-states></dropdown-states>
 
-  <!-- =================================================================================== -->
-  <!--                                                                      Named elements -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Named elements<a class="anchor" id="named"></a></h2>
+    <!-- =================================================================================== -->
+    <!--                                                                      Named elements -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Named elements</h2>
 
-  <!-- ====================================================== -->
-  <!--                                                 Single -->
-  <!--                                                 ====== -->
-  <dropdown-named-element></dropdown-named-element>
+    <!-- ====================================================== -->
+    <!--                                                 Single -->
+    <!--                                                 ====== -->
+    <dropdown-named-element></dropdown-named-element>
 
-  <!-- ====================================================== -->
-  <!--                                                  Multi -->
-  <!--                                                  ===== -->
-  <dropdown-named-element-multi></dropdown-named-element-multi>
+    <!-- ====================================================== -->
+    <!--                                                  Multi -->
+    <!--                                                  ===== -->
+    <dropdown-named-element-multi></dropdown-named-element-multi>
 
-  <!-- =================================================================================== -->
-  <!--                                                                       Event trigger -->
-  <!-- =================================================================================== -->
-  <h2 class="ui dividing header">Event trigger<a class="anchor" id="event"></a></h2>
+    <!-- =================================================================================== -->
+    <!--                                                                       Event trigger -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Event trigger</h2>
 
-  <!-- ====================================================== -->
-  <!--                                                 Single -->
-  <!--                                                 ====== -->
-  <dropdown-event-trigger></dropdown-event-trigger>
+    <!-- ====================================================== -->
+    <!--                                                 Single -->
+    <!--                                                 ====== -->
+    <dropdown-event-trigger></dropdown-event-trigger>
+  </div>
 
   <script>
     import './dropdown/dropdown-selection.tag'
@@ -99,5 +104,10 @@
     import './dropdown/dropdown-named-element.tag'
     import './dropdown/dropdown-named-element-multi.tag'
     import './dropdown/dropdown-event-trigger.tag'
+
+    this.on('mount', () => {
+      this.navigation = this.extractNavigation(this.root)
+      this.update()
+    })
   </script>
 </demo-dropdown>

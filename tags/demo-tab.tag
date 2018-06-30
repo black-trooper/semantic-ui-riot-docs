@@ -7,48 +7,12 @@
   </div>
 
   <div class="main container">
-    <div class="ui dividing right rail">
-      <div class="sticky">
-        <h4 class="ui header">Dropdown</h4>
-        <div class="ui vertical text menu">
-          <div class="item">
-            <div class="header">Types</div>
-            <div class="menu">
-              <a class="item" href="#basic">Basic</a>
-              <a class="item" href="#secondary-menu">Secondary Menu</a>
-              <a class="item" href="#pointing">Pointing</a>
-              <a class="item" href="#attached">Attached</a>
-              <a class="item" href="#tabular">Tabular</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">States</div>
-            <div class="menu">
-              <a class="item" href="#active">Active</a>
-              <a class="item" href="#lazy-mount">Lazy mount</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">Variations</div>
-            <div class="menu">
-              <a class="item" href="#inverted">Inverted</a>
-              <a class="item" href="#colored">Colored</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">Multiple</div>
-            <div class="menu">
-              <a class="item" href="#multiple-tab-groups">Multiple Tab Groups</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <content-navigation title="Tab" items="{ navigation }" />
 
     <!-- =================================================================================== -->
     <!--                                                                               Types -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
+    <h2 class="ui dividing header">Types</h2>
 
     <!-- ====================================================== -->
     <!--                                                  Basic -->
@@ -78,7 +42,7 @@
     <!-- =================================================================================== -->
     <!--                                                                              States -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
+    <h2 class="ui dividing header">States</h2>
 
     <!-- ====================================================== -->
     <!--                                                 Active -->
@@ -93,7 +57,7 @@
     <!-- =================================================================================== -->
     <!--                                                                          Variations -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Variations<a class="anchor" id="variations"></a></h2>
+    <h2 class="ui dividing header">Variations</h2>
 
     <!-- ====================================================== -->
     <!--                                               Inverted -->
@@ -108,7 +72,7 @@
     <!-- =================================================================================== -->
     <!--                                                                            Multiple -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Multiple<a class="anchor" id="multiple"></a></h2>
+    <h2 class="ui dividing header">Multiple</h2>
 
     <!-- ====================================================== -->
     <!--                                    Multiple Tab Groups -->
@@ -126,5 +90,10 @@
     import './tab/tab-colored.tag'
     import './tab/tab-multiple.tag'
     import './tab/tab-lazymount.tag'
+
+    this.on('mount', () => {
+      this.navigation = this.extractNavigation(this.root)
+      this.update()
+    })
   </script>
 </demo-tab>

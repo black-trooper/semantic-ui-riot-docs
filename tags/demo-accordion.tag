@@ -7,36 +7,12 @@
   </div>
 
   <div class="main container">
-    <div class="ui dividing right rail">
-      <div class="sticky">
-        <h4 class="ui header">Accordion</h4>
-        <div class="ui vertical text menu">
-          <div class="item">
-            <div class="header">Types</div>
-            <div class="menu">
-              <a class="item" href="#standard">Standard</a>
-              <a class="item" href="#styled">Styled</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="header">Variations</div>
-            <div class="menu">
-              <a class="item" href="#fluid">Fluid</a>
-              <a class="item" href="#inverted">Inverted</a>
-              <a class="item" href="#nested">Nested</a>
-              <a class="item" href="#menu">Menu</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <content-navigation title="Accordion" items="{ navigation }" />
 
     <!-- =================================================================================== -->
     <!--                                                                               Types -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Types
-      <a class="anchor" id="types"></a>
-    </h2>
+    <h2 class="ui dividing header">Types</h2>
 
     <!-- ====================================================== -->
     <!--                                               Standard -->
@@ -51,9 +27,7 @@
     <!-- =================================================================================== -->
     <!--                                                                          Variations -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Variations
-      <a class="anchor" id="variations"></a>
-    </h2>
+    <h2 class="ui dividing header">Variations</h2>
 
     <!-- ====================================================== -->
     <!--                                                  Fluid -->
@@ -83,5 +57,10 @@
     import './accordion/accordion-inverted.tag'
     import './accordion/accordion-nested.tag'
     import './accordion/accordion-menu.tag'
+
+    this.on('mount', () => {
+      this.navigation = this.extractNavigation(this.root)
+      this.update()
+    })
   </script>
 </demo-accordion>
