@@ -1,4 +1,5 @@
 <dropdown-named-element-multi>
+  <a class="anchor" name="named-multiple-selection"></a>
   <h3 class="ui header">Multi Selection</h3>
   <p>Access to multi selection with ref attribute</p>
   <section>

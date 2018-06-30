@@ -1,4 +1,5 @@
 <dropdown-header>
+  <a class="anchor" name="header"></a>
   <h3 class="ui header">Header</h3>
   <p>A dropdown menu can contain a header</p>
   <section>

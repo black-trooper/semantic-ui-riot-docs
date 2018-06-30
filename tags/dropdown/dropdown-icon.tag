@@ -1,4 +1,5 @@
 <dropdown-icon>
+  <a class="anchor" name="icon"></a>
   <h3 class="ui header">Icon</h3>
   <p>A dropdown menu can contain an <a href="https://semantic-ui.com/elements/icon.html">icon</a>.</p>
   <section>

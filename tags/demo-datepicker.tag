@@ -17,6 +17,7 @@
     <!-- ====================================================== -->
     <!--                                                  Basic -->
     <!--                                                  ===== -->
+    <a class="anchor" name="basic"></a>
     <h3 class="ui header">Basic</h3>
     <p>A simple datepicker.</p>
     <section>
@@ -74,6 +75,7 @@
     <!-- ====================================================== -->
     <!--                                                  Popup -->
     <!--                                                  ===== -->
+    <a class="anchor" name="popup"></a>
     <h3 class="ui header">Popup</h3>
     <p>A datepicker in a popup.</p>
     <section>
@@ -115,6 +117,7 @@
     <!-- ====================================================== -->
     <!--                                          Default value -->
     <!--                                          ============= -->
+    <a class="anchor" name="default-value"></a>
     <h3 class="ui header">Default value</h3>
     <p>A datepicker can set default value.</p>
     <section>
@@ -145,6 +148,7 @@
     <!-- ====================================================== -->
     <!--                                              Read-only -->
     <!--                                              ========= -->
+    <a class="anchor" name="read-only"></a>
     <h3 class="ui header">Read-only</h3>
     <p>A datepicker can be read-only and unable to change states</p>
     <section>
@@ -179,6 +183,7 @@
     <!-- ====================================================== -->
     <!--                                              Disabled -->
     <!--                                              ========= -->
+    <a class="anchor" name="disabled"></a>
     <h3 class="ui header">Disabled</h3>
     <p>A datepicker can be read-only and unable to change states</p>
     <section>

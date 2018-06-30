@@ -1,4 +1,5 @@
 <dropdown-multiple>
+  <a class="anchor" name="multiple-selection"></a>
   <h3 class="ui header">Multiple Selection</h3>
   <p>A selection dropdown can allow multiple selections</p>
   <section>
