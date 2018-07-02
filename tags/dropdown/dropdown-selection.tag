@@ -97,7 +97,6 @@
     </div>
     <div class="ui segment bottom attached">
       <su-select items="{ birthYears }"></su-select>
-      <button id="hoge">change</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
@@ -206,11 +205,11 @@
         value: null,
         default: true
       },
-      { label: '1950-', value: '1950' },
-      { label: '1951-', value: '1951' },
-      { label: '1952-', value: '1952' },
-      { label: '1953-', value: '1953' },
-      { label: '1954-', value: '1954' },
+      { label: '1950', value: '1950' },
+      { label: '1951', value: '1951' },
+      { label: '1952', value: '1952' },
+      { label: '1953', value: '1953' },
+      { label: '1954', value: '1954' },
       { label: '1955', value: '1955' },
       { label: '1956', value: '1956' },
       { label: '1957', value: '1957' },
