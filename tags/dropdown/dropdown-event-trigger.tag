@@ -1,6 +1,4 @@
 <dropdown-event-trigger>
-  <a class="anchor" name="single-selection"></a>
-  <h3 class="ui header">Single Selection</h3>
   <section>
     <div class="ui segment secondary top attached example">
       Example

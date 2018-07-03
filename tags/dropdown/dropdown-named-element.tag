@@ -1,5 +1,4 @@
 <dropdown-named-element>
-  <h3 class="ui header">Single Selection</h3>
   <p>Access to single selection with ref attribute</p>
   <section>
     <div class="ui segment secondary top attached example">

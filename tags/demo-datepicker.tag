@@ -216,9 +216,15 @@
     </section>
 
     <!-- =================================================================================== -->
-    <!--                                                                                i18n -->
+    <!--                                                                            Examples -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Internationalization</h2>
+    <h2 class="ui dividing header">Examples</h2>
+
+    <!-- ====================================================== -->
+    <!--                                   Internationalization -->
+    <!--                                   ==================== -->
+    <a class="anchor" name="internationalization"></a>
+    <h3 class="ui header">Internationalization</h3>
     <p>This component relies on a third party date management library called date-fns.
       <br/>Please refer to the
       <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a> for supported languages.</p>
@@ -242,10 +248,11 @@
       </div>
     </section>
 
-    <!-- =================================================================================== -->
-    <!--                                                                     Default Options -->
-    <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Default Options</h2>
+    <!-- ====================================================== -->
+    <!--                                        Default Options -->
+    <!--                                        =============== -->
+    <a class="anchor" name="default-options"></a>
+    <h3 class="ui header">Default Options</h3>
     <p>You can set the date format and locale without setting every time.</p>
 
     <h4>index.js</h4>

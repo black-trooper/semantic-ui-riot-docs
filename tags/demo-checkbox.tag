@@ -145,8 +145,8 @@
     </section>
 
     <!-- ====================================================== -->
-    <!--                                              Disabled -->
-    <!--                                              ========= -->
+    <!--                                               Disabled -->
+    <!--                                               ======== -->
     <a class="anchor" name="disabled"></a>
     <h3 class="ui header">Disabled</h3>
     <p>A checkbox can be read-only and unable to change states</p>
@@ -170,11 +170,16 @@
     </section>
 
     <!-- =================================================================================== -->
-    <!--                                                                        Update label -->
+    <!--                                                                            Examples -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Update label<a class="anchor" id="label"></a></h2>
+    <h2 class="ui dividing header">Examples</h2>
 
+    <!-- ====================================================== -->
+    <!--                                           Update label -->
+    <!--                                           ============ -->
     <a class="anchor" name="update-label"></a>
+    <h3 class="ui header">Update label</h3>
+
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -202,15 +207,12 @@
       </div>
     </section>
 
-    <!-- =================================================================================== -->
-    <!--                                                                     Access elements -->
-    <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Access elements<a class="anchor" id="access"></a></h2>
-
     <!-- ====================================================== -->
-    <!--                                          Ref attribute -->
-    <!--                                          ============= -->
-    <a class="anchor" name="ref-attribute"></a>
+    <!--                                        Access elements -->
+    <!--                                        =============== -->
+    <a class="anchor" name="access-elements"></a>
+    <h3 class="ui header">Access elements</h3>
+
     <p>Access to checkbox with ref attribute</p>
     <section>
       <div class="ui segment secondary top attached example">
@@ -261,7 +263,6 @@
     <!-- ====================================================== -->
     <!--                                        Check attribute -->
     <!--                                        =============== -->
-    <a class="anchor" name="check-attribute"></a>
     <p>Access to checkbox with check attribute</p>
     <section>
       <div class="ui segment secondary top attached example">

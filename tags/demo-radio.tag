@@ -176,9 +176,14 @@
     </section>
 
     <!-- =================================================================================== -->
-    <!--                                                                        Update label -->
+    <!--                                                                            Examples -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Update label</h2>
+    <h2 class="ui dividing header">Examples</h2>
+
+    <!-- ====================================================== -->
+    <!--                                           Update label -->
+    <!--                                           ============ -->
+    <h3 class="ui header">Update label</h3>
 
     <section>
       <div class="ui segment secondary top attached example">
@@ -207,10 +212,10 @@
       </div>
     </section>
 
-    <!-- =================================================================================== -->
-    <!--                                                                     Access elements -->
-    <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Access elements</h2>
+    <!-- ====================================================== -->
+    <!--                                        Access elements -->
+    <!--                                        =============== -->
+    <h3 class="ui header">Access elements</h3>
 
     <p>Access to radio with ref attribute</p>
     <section>

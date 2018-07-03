@@ -65,28 +65,23 @@
     <dropdown-states></dropdown-states>
 
     <!-- =================================================================================== -->
-    <!--                                                                      Named elements -->
+    <!--                                                                            Examples -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Named elements</h2>
+    <h2 class="ui dividing header">Examples</h2>
 
     <!-- ====================================================== -->
-    <!--                                                 Single -->
-    <!--                                                 ====== -->
+    <!--                                         Named elements -->
+    <!--                                         ============== -->
+    <a class="anchor" name="named-elements"></a>
+    <h3 class="ui header">Named elements</h3>
     <dropdown-named-element></dropdown-named-element>
-
-    <!-- ====================================================== -->
-    <!--                                                  Multi -->
-    <!--                                                  ===== -->
     <dropdown-named-element-multi></dropdown-named-element-multi>
 
-    <!-- =================================================================================== -->
-    <!--                                                                       Event trigger -->
-    <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Event trigger</h2>
-
     <!-- ====================================================== -->
-    <!--                                                 Single -->
-    <!--                                                 ====== -->
+    <!--                                          Event trigger -->
+    <!--                                          ============= -->
+    <a class="anchor" name="event-trigger"></a>
+    <h3 class="ui header">Event trigger</h3>
     <dropdown-event-trigger></dropdown-event-trigger>
   </div>
 

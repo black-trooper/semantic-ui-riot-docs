@@ -1,4 +1,5 @@
 <dropdown-description>
+  <a class="anchor" name="description"></a>
   <h3 class="ui header">Description</h3>
   <p>A dropdown menu can contain a description.</p>
   <section>

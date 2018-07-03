@@ -1,4 +1,5 @@
 <dropdown-image>
+  <a class="anchor" name="image"></a>
   <h3 class="ui header">Image</h3>
   <p>A dropdown menu can contain an image.</p>
   <section>

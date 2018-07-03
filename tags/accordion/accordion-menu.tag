@@ -1,5 +1,5 @@
 <accordion-menu>
-  <a class="anchor" name="menu"></a>
+  <a class="anchor" name="accordion-menu"></a>
   <h3 class="ui header">Accordion Menu</h3>
   <p>An accordion can be used to create content drawers inside a menu</p>
   <section>
