@@ -1,7 +1,5 @@
 <tab-colored>
-  <a class="anchor" name="colored"></a>
-  <h3 class="ui header">Colored</h3>
-  <p>Additional colors can be specified.</p>
+  <section-header title="Colored">Additional colors can be specified.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

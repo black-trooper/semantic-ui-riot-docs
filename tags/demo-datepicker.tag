@@ -17,9 +17,7 @@
     <!-- ====================================================== -->
     <!--                                                  Basic -->
     <!--                                                  ===== -->
-    <a class="anchor" name="basic"></a>
-    <h3 class="ui header">Basic</h3>
-    <p>A simple datepicker.</p>
+    <section-header title="Basic">A simple datepicker.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -75,9 +73,7 @@
     <!-- ====================================================== -->
     <!--                                                  Popup -->
     <!--                                                  ===== -->
-    <a class="anchor" name="popup"></a>
-    <h3 class="ui header">Popup</h3>
-    <p>A datepicker in a popup.</p>
+    <section-header title="Popup">A datepicker in a popup.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -117,9 +113,7 @@
     <!-- ====================================================== -->
     <!--                                          Default value -->
     <!--                                          ============= -->
-    <a class="anchor" name="default-value"></a>
-    <h3 class="ui header">Default value</h3>
-    <p>A datepicker can set default value.</p>
+    <section-header title="Default value">A datepicker can set default value.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -148,9 +142,7 @@
     <!-- ====================================================== -->
     <!--                                              Read-only -->
     <!--                                              ========= -->
-    <a class="anchor" name="read-only"></a>
-    <h3 class="ui header">Read-only</h3>
-    <p>A datepicker can be read-only and unable to change states</p>
+    <section-header title="Read-only">A datepicker can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -183,9 +175,7 @@
     <!-- ====================================================== -->
     <!--                                              Disabled -->
     <!--                                              ========= -->
-    <a class="anchor" name="disabled"></a>
-    <h3 class="ui header">Disabled</h3>
-    <p>A datepicker can be read-only and unable to change states</p>
+    <section-header title="Disabled">A datepicker can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -223,11 +213,9 @@
     <!-- ====================================================== -->
     <!--                                   Internationalization -->
     <!--                                   ==================== -->
-    <a class="anchor" name="internationalization"></a>
-    <h3 class="ui header">Internationalization</h3>
-    <p>This component relies on a third party date management library called date-fns.
-      <br/>Please refer to the
-      <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a> for supported languages.</p>
+    <section-header title="Internationalization">
+      This component relies on a third party date management library called date-fns.<br/> Please refer to the <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a>      for supported languages.
+    </section-header>
 
     <section>
       <div class="ui segment secondary top attached example">
@@ -251,9 +239,7 @@
     <!-- ====================================================== -->
     <!--                                        Default Options -->
     <!--                                        =============== -->
-    <a class="anchor" name="default-options"></a>
-    <h3 class="ui header">Default Options</h3>
-    <p>You can set the date format and locale without setting every time.</p>
+    <section-header title="Default Options">You can set the date format and locale without setting every time.</section-header>
 
     <h4>index.js</h4>
     <div class="ui inverted segment">

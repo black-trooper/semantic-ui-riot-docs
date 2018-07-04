@@ -1,7 +1,5 @@
 <dropdown-image>
-  <a class="anchor" name="image"></a>
-  <h3 class="ui header">Image</h3>
-  <p>A dropdown menu can contain an image.</p>
+  <section-header title="Image">A dropdown menu can contain an image.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

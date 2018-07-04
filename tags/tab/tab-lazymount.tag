@@ -1,7 +1,5 @@
 <tab-lazymount>
-  <a class="anchor" name="lazy-mount"></a>
-  <h3 class="ui header">Lazy mount</h3>
-  <p>Components under the su-tab will be mounted at the first time display.</p>
+  <section-header title="Lazy mount">Components under the su-tab will be mounted at the first time display.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

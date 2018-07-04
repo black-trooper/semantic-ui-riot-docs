@@ -1,7 +1,5 @@
 <tab-active>
-  <a class="anchor" name="active"></a>
-  <h3 class="ui header">Active</h3>
-  <p>A menu item can be active.</p>
+  <section-header title="Active">A menu item can be active.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

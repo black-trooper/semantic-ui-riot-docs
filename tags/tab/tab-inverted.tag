@@ -1,7 +1,5 @@
 <tab-inverted>
-  <a class="anchor" name="inverted"></a>
-  <h3 class="ui header">Inverted</h3>
-  <p>A menu may have its colors inverted to show greater contrast.</p>
+  <section-header title="Inverted">A menu may have its colors inverted to show greater contrast.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

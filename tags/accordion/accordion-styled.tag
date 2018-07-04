@@ -1,8 +1,5 @@
 <accordion-styled>
-  <a class="anchor" name="styled"></a>
-  <h3 class="ui header">
-    Styled</h3>
-  <p>A styled accordion adds basic formatting</p>
+  <section-header title="Styled">A styled accordion adds basic formatting</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

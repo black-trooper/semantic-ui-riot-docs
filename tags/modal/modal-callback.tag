@@ -1,5 +1,5 @@
 <modal-callback>
-  <h3 class="ui header">Callback</h3>
+  <section-header title="Callback"></section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

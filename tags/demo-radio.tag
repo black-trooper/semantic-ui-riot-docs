@@ -17,8 +17,7 @@
     <!-- ====================================================== -->
     <!--                                               Standard -->
     <!--                                               ======== -->
-    <h3 class="ui header">Standard</h3>
-    <p>A standard radio.</p>
+    <section-header title="Standard">A standard radio.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -32,19 +31,18 @@
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
-      <su-radio-group>
-        <su-radio value="1">Radio choice1</su-radio>
-        <su-radio value="2">Radio choice2</su-radio>
-      </su-radio-group>
-    </code></pre>
+          <su-radio-group>
+            <su-radio value="1">Radio choice1</su-radio>
+            <su-radio value="2">Radio choice2</su-radio>
+          </su-radio-group>
+        </code></pre>
       </div>
     </section>
 
     <!-- ====================================================== -->
     <!--                                                 Slider -->
     <!--                                                 ====== -->
-    <h3 class="ui header">Slider</h3>
-    <p>A radio can be formatted to emphasize the current selection state</p>
+    <section-header title="Slider">A radio can be formatted to emphasize the current selection state</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -71,24 +69,24 @@
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
-      <div class="ui form">
-        <su-radio-group class="grouped fields">
-          <label>Outbound Throughput</label>
-          <div class="field">
-            <su-radio class="slider" value="20">20mbps max</su-radio>
+          <div class="ui form">
+            <su-radio-group class="grouped fields">
+              <label>Outbound Throughput</label>
+              <div class="field">
+                <su-radio class="slider" value="20">20mbps max</su-radio>
+              </div>
+              <div class="field">
+                <su-radio class="slider" value="10">10mbps max</su-radio>
+              </div>
+              <div class="field">
+                <su-radio class="slider" value="5">5mbps max</su-radio>
+              </div>
+              <div class="field">
+                <su-radio class="slider" value="Unmetered">Unmetered</su-radio>
+              </div>
+            </su-radio-group>
           </div>
-          <div class="field">
-            <su-radio class="slider" value="10">10mbps max</su-radio>
-          </div>
-          <div class="field">
-            <su-radio class="slider" value="5">5mbps max</su-radio>
-          </div>
-          <div class="field">
-            <su-radio class="slider" value="Unmetered">Unmetered</su-radio>
-          </div>
-        </su-radio-group>
-      </div>
-    </code></pre>
+        </code></pre>
       </div>
     </section>
 
@@ -100,8 +98,7 @@
     <!-- ====================================================== -->
     <!--                                              Read-only -->
     <!--                                              ========= -->
-    <h3 class="ui header">Read-only</h3>
-    <p>A radio can be read-only and unable to change states</p>
+    <section-header title="Read-only">A radio can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -128,8 +125,7 @@
     <!-- ====================================================== -->
     <!--                                              Checked -->
     <!--                                              ========= -->
-    <h3 class="ui header">Checked</h3>
-    <p>A radio can be checked</p>
+    <section-header title="Checked">A radio can be checked</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -154,8 +150,7 @@
     <!-- ====================================================== -->
     <!--                                              Disabled -->
     <!--                                              ========= -->
-    <h3 class="ui header">Disabled</h3>
-    <p>A radio can be read-only and unable to change states</p>
+    <section-header title="Disabled">A radio can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -183,7 +178,7 @@
     <!-- ====================================================== -->
     <!--                                           Update label -->
     <!--                                           ============ -->
-    <h3 class="ui header">Update label</h3>
+    <section-header title="Update label"></section-header>
 
     <section>
       <div class="ui segment secondary top attached example">
@@ -215,7 +210,7 @@
     <!-- ====================================================== -->
     <!--                                        Access elements -->
     <!--                                        =============== -->
-    <h3 class="ui header">Access elements</h3>
+    <section-header title="Access elements"></section-header>
 
     <p>Access to radio with ref attribute</p>
     <section>

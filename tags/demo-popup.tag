@@ -16,8 +16,7 @@
     <!-- ====================================================== -->
     <!--                                                  Popup -->
     <!--                                                  ===== -->
-    <h3 class="ui header">Popup</h3>
-    <p>An element can specify popup content to appear</p>
+    <section-header title="Popup">An element can specify popup content to appear</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -54,8 +53,7 @@
     <!-- ====================================================== -->
     <!--                                                 Titled -->
     <!--                                                 ====== -->
-    <h3 class="ui header">Titled</h3>
-    <p>An element can specify popup content with a title</p>
+    <section-header title="Titled">An element can specify popup content with a title</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -78,8 +76,7 @@
     <!-- ====================================================== -->
     <!--                                                   HTML -->
     <!--                                                   ==== -->
-    <h3 class="ui header">HTML</h3>
-    <p>An element can specify HTML for a popup</p>
+    <section-header title="HTML">An element can specify HTML for a popup</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -160,13 +157,12 @@
     <!-- =================================================================================== -->
     <!--                                                                          Variations -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">Variations<a class="anchor" id="variations"></a></h2>
+    <h2 class="ui dividing header">Variations</h2>
 
     <!-- ====================================================== -->
     <!--                                                  Width -->
     <!--                                                  ===== -->
-    <h3 class="ui header">Width</h3>
-    <p>A popup can be extra wide to allow for longer content</p>
+    <section-header title="Width">A popup can be extra wide to allow for longer content</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -200,7 +196,7 @@
     <!--                                                  Fluid -->
     <!--                                                  ===== -->
     <!--
-  <h3 class="ui header">Fluid</h3>
+  <section-header title="Fluid"></section-header>
   <p>A fluid popup will take up the entire width of its offset container</p>
   <section>
     <div class="ui segment secondary top attached example">
@@ -231,8 +227,7 @@
     <!-- ====================================================== -->
     <!--                                                   Size -->
     <!--                                                   ==== -->
-    <h3 class="ui header">Size</h3>
-    <p>A popup can vary in size</p>
+    <section-header title="Size">A popup can vary in size</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -279,8 +274,7 @@
     <!-- ====================================================== -->
     <!--                                               Inverted -->
     <!--                                               ======== -->
-    <h3 class="ui header">Inverted</h3>
-    <p>A popup can have its colors inverted</p>
+    <section-header title="Inverted">A popup can have its colors inverted</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example

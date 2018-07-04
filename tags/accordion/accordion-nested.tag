@@ -1,9 +1,6 @@
 <accordion-nested>
-  <a class="anchor" name="nested-accordions"></a>
-  <h3 class="ui header">Nested Accordions</h3>
-  <p>An accordion can have multiple levels of nested content. This content can either be in a nested accordion or simply another
-    level of title and content
-  </p>
+  <section-header title="Nested Accordions">An accordion can have multiple levels of nested content. This content can either be in a nested accordion or simply another
+    level of title and content</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

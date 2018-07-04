@@ -1,6 +1,5 @@
 <modal-size>
-  <h3 class="ui header">Size</h3>
-  <p>A modal can vary in size</p>
+  <section-header title="Size">A modal can vary in size</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

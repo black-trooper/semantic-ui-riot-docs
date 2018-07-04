@@ -1,7 +1,5 @@
 <tab-basic>
-  <a class="anchor" name="basic"></a>
-  <h3 class="ui header">Basic</h3>
-  <p>A basic tab.</p>
+  <section-header title="Basic">A basic tab.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

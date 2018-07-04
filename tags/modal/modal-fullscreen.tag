@@ -1,6 +1,5 @@
 <modal-fullscreen>
-  <h3 class="ui header">Full Screen</h3>
-  <p>A modal can use the entire size of the screen</p>
+  <section-header title="Full Screen">A modal can use the entire size of the screen</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

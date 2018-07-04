@@ -1,6 +1,5 @@
 <modal-standard>
-  <h3 class="ui header">Modal</h3>
-  <p>A standard modal</p>
+  <section-header title="Standard">A standard modal</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

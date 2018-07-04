@@ -1,7 +1,5 @@
 <accordion-standard>
-  <a class="anchor" name="standard"></a>
-  <h3 class="ui header">Standard</h3>
-  <p>A standard accordion</p>
+  <section-header title="Standard">A standard accordion</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

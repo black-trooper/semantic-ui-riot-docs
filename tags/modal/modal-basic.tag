@@ -1,6 +1,5 @@
 <modal-basic>
-  <h3 class="ui header">Basic</h3>
-  <p>A modal can reduce its complexity</p>
+  <section-header title="Basic">A modal can reduce its complexity</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

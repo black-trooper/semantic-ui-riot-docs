@@ -1,7 +1,5 @@
 <dropdown-multiple>
-  <a class="anchor" name="multiple-selection"></a>
-  <h3 class="ui header">Multiple Selection</h3>
-  <p>A selection dropdown can allow multiple selections</p>
+  <section-header title="Multiple Selection">A selection dropdown can allow multiple selections</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

@@ -17,9 +17,7 @@
     <!-- ====================================================== -->
     <!--                                               Standard -->
     <!--                                               ======== -->
-    <a class="anchor" name="standard"></a>
-    <h3 class="ui header">Standard</h3>
-    <p>A standard checkbox</p>
+    <section-header title="Standard">A standard checkbox</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -42,9 +40,7 @@
     <!-- ====================================================== -->
     <!--                                                 Slider -->
     <!--                                                 ====== -->
-    <a class="anchor" name="slider"></a>
-    <h3 class="ui header">Slider</h3>
-    <p>A checkbox can be formatted to emphasize the current selection state</p>
+    <section-header title="Slider">A checkbox can be formatted to emphasize the current selection state</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -67,9 +63,7 @@
     <!-- ====================================================== -->
     <!--                                                 Toggle -->
     <!--                                                 ====== -->
-    <a class="anchor" name="toggle"></a>
-    <h3 class="ui header">Toggle</h3>
-    <p>A checkbox can be formatted to show an on or off choice</p>
+    <section-header title="Toggle">A checkbox can be formatted to show an on or off choice</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -92,14 +86,12 @@
     <!-- =================================================================================== -->
     <!--                                                                              States -->
     <!-- =================================================================================== -->
-    <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
+    <h2 class="ui dividing header">States</h2>
 
     <!-- ====================================================== -->
     <!--                                              Read-only -->
     <!--                                              ========= -->
-    <a class="anchor" name="read-only"></a>
-    <h3 class="ui header">Read-only</h3>
-    <p>A checkbox can be read-only and unable to change states</p>
+    <section-header title="Read-only">A checkbox can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -122,9 +114,7 @@
     <!-- ====================================================== -->
     <!--                                              Checked -->
     <!--                                              ========= -->
-    <a class="anchor" name="checked"></a>
-    <h3 class="ui header">Checked</h3>
-    <p>A checkbox can be checked</p>
+    <section-header title="Checked">A checkbox can be checked</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -147,9 +137,7 @@
     <!-- ====================================================== -->
     <!--                                               Disabled -->
     <!--                                               ======== -->
-    <a class="anchor" name="disabled"></a>
-    <h3 class="ui header">Disabled</h3>
-    <p>A checkbox can be read-only and unable to change states</p>
+    <section-header title="Disabled">A checkbox can be read-only and unable to change states</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -177,8 +165,7 @@
     <!-- ====================================================== -->
     <!--                                           Update label -->
     <!--                                           ============ -->
-    <a class="anchor" name="update-label"></a>
-    <h3 class="ui header">Update label</h3>
+    <section-header title="Update label"></section-header>
 
     <section>
       <div class="ui segment secondary top attached example">
@@ -210,8 +197,7 @@
     <!-- ====================================================== -->
     <!--                                        Access elements -->
     <!--                                        =============== -->
-    <a class="anchor" name="access-elements"></a>
-    <h3 class="ui header">Access elements</h3>
+    <section-header title="Access elements"></section-header>
 
     <p>Access to checkbox with ref attribute</p>
     <section>

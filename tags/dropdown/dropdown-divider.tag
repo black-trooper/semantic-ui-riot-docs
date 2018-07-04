@@ -1,7 +1,5 @@
 <dropdown-divider>
-  <a class="anchor" name="divider"></a>
-  <h3 class="ui header">Divider</h3>
-  <p>A dropdown menu can contain dividers to separate related content</p>
+  <section-header title="Divider">A dropdown menu can contain dividers to separate related content</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

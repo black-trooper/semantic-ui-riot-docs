@@ -1,7 +1,5 @@
 <accordion-fluid>
-  <a class="anchor" name="fluid"></a>
-  <h3 class="ui header">Fluid</h3>
-  <p>An accordion can take up the width of its container</p>
+  <section-header title="Fluid">An accordion can take up the width of its container</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

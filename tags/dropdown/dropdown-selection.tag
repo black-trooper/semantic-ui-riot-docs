@@ -1,7 +1,5 @@
 <dropdown-selection>
-  <a class="anchor" name="selection"></a>
-  <h3 class="ui header">Selection</h3>
-  <p>A dropdown can be used to select between choices in a form</p>
+  <section-header title="Selection">A dropdown can be used to select between choices in a form</section-header>
 
   <section>
     <div class="ui segment secondary top attached example">

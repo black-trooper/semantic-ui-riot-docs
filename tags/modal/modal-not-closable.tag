@@ -1,6 +1,5 @@
 <modal-not-closable>
-  <h3 class="ui header">Not closable</h3>
-  <p>Clicking on the dimmer does not close modal</p>
+  <section-header title="Not closable">Clicking on the dimmer does not close modal</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

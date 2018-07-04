@@ -2,9 +2,7 @@
   <!-- ====================================================== -->
   <!--                                              Read-only -->
   <!--                                              ========= -->
-  <a class="anchor" name="read-only"></a>
-  <h3 class="ui header">Read-only</h3>
-  <p>A dropdown can be read-only and unable to change states</p>
+  <section-header title="Read-only">A dropdown can be read-only and unable to change states</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example
@@ -41,9 +39,7 @@
   <!-- ====================================================== -->
   <!--                                               Disabled -->
   <!--                                               ======== -->
-  <a class="anchor" name="disabled"></a>
-  <h3 class="ui header">Disabled</h3>
-  <p>A dropdown can be disavbled</p>
+  <section-header title="Disabled">A dropdown can be disavbled</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

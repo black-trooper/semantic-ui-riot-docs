@@ -31,8 +31,7 @@
     <!-- ====================================================== -->
     <!--                                                 Header -->
     <!--                                                 ====== -->
-    <h3 class="ui header">Header</h3>
-    <p>A modal can have a header</p>
+    <section-header title="Header">A modal can have a header</section-header>
     <section>
       <div class="ui segment inverted">
         <pre class="prettyprint"><code>
@@ -50,8 +49,7 @@
     <!-- ====================================================== -->
     <!--                                                Content -->
     <!--                                                ======= -->
-    <h3 class="ui header">Content</h3>
-    <p>A modal can contain content</p>
+    <section-header title="Content">A modal can contain content</section-header>
     <section>
       <div class="ui segment inverted">
         <pre class="prettyprint"><code>
@@ -67,8 +65,7 @@
     <!-- ====================================================== -->
     <!--                                          Image Content -->
     <!--                                          ============= -->
-    <h3 class="ui header">Image Content</h3>
-    <p>A modal can contain image content</p>
+    <section-header title="Image Content">A modal can contain image content</section-header>
     <section>
       <div class="ui segment inverted">
         <pre class="prettyprint"><code>
@@ -87,8 +84,7 @@
     <!-- ====================================================== -->
     <!--                                                Actions -->
     <!--                                                ======= -->
-    <h3 class="ui header">Actions</h3>
-    <p>A modal can contain a row of actions</p>
+    <section-header title="Actions">A modal can contain a row of actions</section-header>
     <section>
       <div class="ui segment inverted">
         <pre class="prettyprint"><code>

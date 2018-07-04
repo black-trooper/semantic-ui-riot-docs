@@ -1,7 +1,5 @@
 <accordion-inverted>
-  <a class="anchor" name="inverted"></a>
-  <h3 class="ui header">Inverted</h3>
-  <p>An accordion can take up the width of its container</p>
+  <section-header title="Inverted">An accordion can take up the width of its container</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

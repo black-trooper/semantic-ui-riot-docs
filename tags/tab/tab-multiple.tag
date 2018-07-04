@@ -1,8 +1,6 @@
 <tab-multiple>
-  <a class="anchor" name="multiple-tab-groups"></a>
-  <h3 class="ui header">Multiple Tab Groups</h3>
-  <p>There are a several of ways to include independent tab groups on the same page, even with history. One of the easiest ways
-    is provide a specific parent context for each tab group.</p>
+  <section-header title="Multiple Tab Groups">There are a several of ways to include independent tab groups on the same page, even with history. One of the easiest ways
+    is provide a specific parent context for each tab group.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

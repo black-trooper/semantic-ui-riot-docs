@@ -1,7 +1,5 @@
 <dropdown-search>
-  <a class="anchor" name="search-selection"></a>
-  <h3 class="ui header">Search Selection</h3>
-  <p>A selection dropdown can allow a user to search through a large list of choices.</p>
+  <section-header title="Search Selection">A selection dropdown can allow a user to search through a large list of choices.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example

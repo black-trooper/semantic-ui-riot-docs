@@ -72,16 +72,14 @@
     <!-- ====================================================== -->
     <!--                                         Named elements -->
     <!--                                         ============== -->
-    <a class="anchor" name="named-elements"></a>
-    <h3 class="ui header">Named elements</h3>
+    <section-header title="Named elements"></section-header>
     <dropdown-named-element></dropdown-named-element>
     <dropdown-named-element-multi></dropdown-named-element-multi>
 
     <!-- ====================================================== -->
     <!--                                          Event trigger -->
     <!--                                          ============= -->
-    <a class="anchor" name="event-trigger"></a>
-    <h3 class="ui header">Event trigger</h3>
+    <section-header title="Event trigger"></section-header>
     <dropdown-event-trigger></dropdown-event-trigger>
   </div>
 
