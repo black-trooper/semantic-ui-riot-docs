@@ -25,7 +25,10 @@ route('', () => {
   riot.mount('content', 'root')
 })
 
-route(collection => {
+route((collection, title) => {
+  if (!title) {
+    window.scroll(0, 0);
+  }
   riot.mount('content', collection)
 })
 
