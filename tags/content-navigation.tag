@@ -10,9 +10,4 @@
       </div>
     </div>
   </div>
-  <script>
-    this.kebab = target => {
-      return target.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
-    }
-  </script>
 </content-navigation>
