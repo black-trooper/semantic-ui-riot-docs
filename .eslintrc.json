@@ -38,6 +38,7 @@
     ]
   },
   "globals": {
+    "observable": true,
     "opts": true
   }
 }

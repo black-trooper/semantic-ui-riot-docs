@@ -45,14 +45,7 @@
     <div class="item">
       <div class="header">Module</div>
       <div class="menu">
-        <a class="item" click="{ hideMenu }" href="demo-accordion">Accordion</a>
-        <a class="item" click="{ hideMenu }" href="demo-checkbox">Checkbox</a>
-        <a class="item" click="{ hideMenu }" href="demo-datepicker">Datepicker</a>
-        <a class="item" click="{ hideMenu }" href="demo-dropdown">Dropdown</a>
-        <a class="item" click="{ hideMenu }" href="demo-modal">Modal</a>
-        <a class="item" click="{ hideMenu }" href="demo-popup">Popup</a>
-        <a class="item" click="{ hideMenu }" href="demo-radio">Radio</a>
-        <a class="item" click="{ hideMenu }" href="demo-tab">Tab</a>
+        <a each="{menu in menus}" class="item { active : activeContent == kebab(menu) }" click="{ hideMenu }" href="demo-{ kebab(menu) }">{ menu }</a>
       </div>
     </div>
   </div>
@@ -76,7 +69,19 @@
     const self = this
     let timer = 0
     this.menuVisible = false
+    this.activeContent = ''
     this.version = require('../package.json').dependencies['semantic-ui-riot']
+
+    this.menus = [
+      'Accordion',
+      'Checkbox',
+      'Datepicker',
+      'Dropdown',
+      'Modal',
+      'Popup',
+      'Radio',
+      'Tab',
+    ]
 
     this.on('mount', () => {
       window.addEventListener('resize', function () {
@@ -101,5 +106,10 @@
     this.hideMenu = () => {
       this.menuVisible = false
     }
+
+    observable.on('routing', content => {
+      this.activeContent = content
+      this.update()
+    })
   </script>
 </navigation>

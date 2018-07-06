@@ -20,6 +20,7 @@ delete sessionStorage.redirect
 if (redirect && redirect !== location.href) {
   history.replaceState(null, null, redirect)
 }
+global.observable = riot.observable()
 
 route('', () => {
   riot.mount('content', 'root')
@@ -28,14 +29,13 @@ route('', () => {
 route((collection, title) => {
   if (!title) {
     window.scroll(0, 0);
+    observable.trigger('routing', collection)
   }
   riot.mount('content', collection)
 })
 
 route.base('/semantic-ui-riot-docs/')
 route.start(true)
-
-riot.mount('*')
 
 riot.mixin({
   init: function () {
@@ -82,3 +82,5 @@ riot.mixin({
     return target.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
   },
 })
+
+riot.mount('*')
