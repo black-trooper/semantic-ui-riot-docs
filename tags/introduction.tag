@@ -1,4 +1,4 @@
-<root>
+<introduction>
   <h1 class="ui header">
     Semantic UI Riot
     <div class="sub header">Semantic-UI-Riot integration.</div>
@@ -129,4 +129,4 @@
     }
   </style>
 
-</root>
+</introduction>
