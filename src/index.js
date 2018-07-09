@@ -23,7 +23,7 @@ if (redirect && redirect !== location.href) {
 global.observable = riot.observable()
 
 route('', () => {
-  riot.mount('content', 'root')
+  riot.mount('content', 'introduction')
 })
 
 route((collection, title) => {
