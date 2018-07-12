@@ -123,6 +123,11 @@
     <!--                                                   ==== -->
     <modal-size></modal-size>
 
+    <!-- ====================================================== -->
+    <!--                                         Default button -->
+    <!--                                         ============== -->
+    <modal-default-button></modal-default-button>
+
     <!-- =================================================================================== -->
     <!--                                                                            Examples -->
     <!-- =================================================================================== -->
@@ -143,6 +148,7 @@
     import './modal/modal-basic.tag'
     import './modal/modal-fullscreen.tag'
     import './modal/modal-size.tag'
+    import './modal/modal-default-button.tag'
     import './modal/modal-not-closable.tag'
     import './modal/modal-callback.tag'
 
