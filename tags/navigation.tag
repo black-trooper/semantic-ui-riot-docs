@@ -73,6 +73,7 @@
     this.version = require('../package.json').dependencies['semantic-ui-riot']
 
     this.menus = [
+      'Alert',
       'Accordion',
       'Checkbox',
       'Datepicker',
