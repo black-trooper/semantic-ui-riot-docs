@@ -29,7 +29,7 @@
     "url": "https://github.com/black-trooper/semantic-ui-riot-docs/issues"
   },
   "dependencies": {
-    "semantic-ui-riot": "0.7.8"
+    "semantic-ui-riot": "0.7.9"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

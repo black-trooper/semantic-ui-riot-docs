@@ -1,6 +1,6 @@
 import riot from 'riot'
 import route from 'riot-route'
-import 'semantic-ui-riot'
+import './semantic-ui-riot'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
@@ -14,6 +14,7 @@ import '../tags/demo-dropdown.tag'
 import '../tags/demo-modal.tag'
 import '../tags/demo-popup.tag'
 import '../tags/demo-radio.tag'
+// import '../tags/demo-rating.tag'
 import '../tags/demo-tab.tag'
 
 const redirect = sessionStorage.redirect

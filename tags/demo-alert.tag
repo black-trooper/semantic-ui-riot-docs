@@ -91,6 +91,7 @@
         <button class="ui button" onclick="{ showAlert.bind(this, {
           message: 'Style changed button', 
           button: {
+            default: true,
             text: 'OK',
             type: 'primary',
             icon: 'check',
@@ -106,6 +107,7 @@
                   this.suAlert({
                     message: 'message',
                     button: {
+                      default: true,
                       text: 'OK',
                       type: 'primary',
                       icon: 'check',
@@ -120,6 +122,76 @@
             </code></pre>
       </div>
     </section>
+    <!-- =================================================================================== -->
+    <!--                                                                            Examples -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Examples</h2>
+
+    <!-- ====================================================== -->
+    <!--                                        Default Options -->
+    <!--                                        =============== -->
+    <section-header title="Default Options">You can set button style without setting every time.</section-header>
+
+    <h4>index.js</h4>
+    <div class="ui inverted segment">
+      <pre class="prettyprint"><code>
+        import riot from 'riot'
+        import su_riot from 'semantic-ui-riot'
+        import './sample.tag'
+
+        su_riot({
+          defaultOptions: {
+            alert: {
+              button: {
+                default: true,
+                text: 'OK',
+                type: 'primary',
+                icon: 'check',
+              }
+            }
+          }
+        })
+        riot.mount('sample')
+      </code></pre>
+    </div>
+
+    <h4>sample.tag</h4>
+    <div class="ui inverted segment">
+      <pre class="prettyprint"><code>
+        <sample>
+          <button class="ui button" onclick="{ showAlert }">Show alert</button>
+
+          <script>
+            this.showAlert = () => {
+              this.suAlert()
+            }
+          </script>
+        </sample>
+      </code></pre>
+    </div>
+
+    <h4>index.html</h4>
+    <div class="ui inverted segment">
+      <pre class="prettyprint">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;su-alert&gt;&lt;/su-alert&gt;
+  &lt;sample&gt;&lt;/sample&gt;
+  &lt;script type="riot/tag" src="sample.tag"&gt;&lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/riot@3.9/riot+compiler.min.js"&gt;&lt;/script&gt; 
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"&gt;&lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js"&gt;&lt;/script&gt;
+  &lt;script&gt;
+    riot.mount('sample')
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
   </div>
 
   <script>
