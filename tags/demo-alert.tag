@@ -2,7 +2,8 @@
   <div class="ui masthead vertical segment">
     <h1 class="ui header">
       Alert
-      <div class="sub header"></div>
+      <span class="ui label teal small">since 0.7.9</span>
+      <div class="sub header">A alert can be used instead of 'alert()' to provide feedback messages.</div>
     </h1>
   </div>
 
