@@ -173,25 +173,12 @@
 
     <h4>index.html</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;su-alert&gt;&lt;/su-alert&gt;
-  &lt;sample&gt;&lt;/sample&gt;
-  &lt;script type="riot/tag" src="sample.tag"&gt;&lt;/script&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/riot@3.9/riot+compiler.min.js"&gt;&lt;/script&gt; 
-  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"&gt;&lt;/script&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui-riot/dist/semantic-ui-riot.min.js"&gt;&lt;/script&gt;
-  &lt;script&gt;
-    riot.mount('sample')
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </pre>
+      <pre class="prettyprint"><code>
+        <body>
+          <su-alert></su-alert>
+          <sample></sample>
+        </body>
+      </code></pre>
     </div>
   </div>
 
