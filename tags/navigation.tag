@@ -76,6 +76,7 @@
       'Alert',
       'Accordion',
       'Checkbox',
+      'Confirm',
       'Datepicker',
       'Dropdown',
       'Modal',
