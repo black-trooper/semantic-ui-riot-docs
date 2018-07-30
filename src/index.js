@@ -1,6 +1,6 @@
 import riot from 'riot'
 import route from 'riot-route'
-import './semantic-ui-riot'
+import 'semantic-ui-riot'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
