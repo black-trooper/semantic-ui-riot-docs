@@ -15,7 +15,7 @@ import '../tags/demo-dropdown.tag'
 import '../tags/demo-modal.tag'
 import '../tags/demo-popup.tag'
 import '../tags/demo-radio.tag'
-// import '../tags/demo-rating.tag'
+import '../tags/demo-rating.tag'
 import '../tags/demo-tab.tag'
 
 const redirect = sessionStorage.redirect

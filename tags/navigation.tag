@@ -82,6 +82,7 @@
       'Modal',
       'Popup',
       'Radio',
+      'Rating',
       'Tab',
     ]
 
