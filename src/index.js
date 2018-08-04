@@ -29,6 +29,10 @@ route('', () => {
   riot.mount('content', 'introduction')
 })
 
+route('index.html', () => {
+  riot.mount('content', 'introduction')
+})
+
 route((collection, title) => {
   if (!title) {
     window.scroll(0, 0);
