@@ -3,7 +3,7 @@
     <h1 class="ui header">
       Alert
       <span class="ui label teal small">since 0.7.9</span>
-      <div class="sub header">A alert can be used instead of 'alert()' to provide feedback messages.</div>
+      <div class="sub header">An alert can be used instead of 'alert()' to provide feedback messages.</div>
     </h1>
   </div>
 
