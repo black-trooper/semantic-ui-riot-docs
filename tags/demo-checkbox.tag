@@ -246,6 +246,62 @@
       </div>
     </section>
 
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-checkbox-group ref="checkbox3" value="{ checkbox3 }">
+          <su-checkbox value="1">Checkbox choice1</su-checkbox>
+          <su-checkbox value="2">Checkbox choice2</su-checkbox>
+        </su-checkbox-group>
+
+        <div class="ui message">
+          <div class="header">
+            Checked from refs
+          </div>
+          <p>Checkbox choice{ refs.checkbox3.value}</p>
+        </div>
+
+        <button type="button" click="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
+        <button type="button" click="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
+        <button type="button" click="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
+      </div>
+
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <su-checkbox-group ref="checkbox3" value="{ checkbox3 }">
+            <su-checkbox value="1">Checkbox choice1</su-checkbox>
+            <su-checkbox value="2">Checkbox choice2</su-checkbox>
+          </su-checkbox-group>
+      
+          <div class="ui message">
+            <div class="header">
+              Checked from refs
+            </div>
+            <p>Checkbox choice{ refs.checkbox3.value}</p>
+          </div>
+      
+          <button type="button" click="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
+          <button type="button" click="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
+          <button type="button" click="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
+
+          <script>
+            this.on('mount', () => {
+              this.refs.checkbox3.on('change', value => {
+                this.update({ checkbox3: value })
+              })
+            })
+            this.checkbox3 = 1
+            this.setRefValue = value => {
+              this.checkbox3 = value
+            }
+          </script>
+        </code></pre>
+      </div>
+    </section>
+
     <!-- ====================================================== -->
     <!--                                        Check attribute -->
     <!--                                        =============== -->
@@ -301,7 +357,16 @@
     this.on('mount', () => {
       this.navigation = this.extractNavigation(this.root)
       this.update()
+
+      this.refs.checkbox3.on('change', value => {
+        this.update({ checkbox3: value })
+      })
     })
+
+    this.checkbox3 = 1
+    this.setRefValue2 = value => {
+      this.checkbox3 = value
+    }
 
     this.setCheckboxValue = value => {
       this.checkbox2 = value
