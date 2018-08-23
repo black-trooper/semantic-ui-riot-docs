@@ -267,6 +267,35 @@
       </div>
     </section>
 
+    <!-- =================================================================================== -->
+    <!--                                                                          Variations -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Variations</h2>
+
+    <!-- ====================================================== -->
+    <!--                                               Inverted -->
+    <!--                                               ======== -->
+    <section-header title="Inverted">A progress bar can have its colors inverted</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <div class="ui inverted segment">
+          <su-progress class="progress inverted" value="52">Uploading Files</su-progress>
+          <su-progress class="progress inverted success" value="100">Success</su-progress>
+          <su-progress class="progress inverted warning" value="100">Warning</su-progress>
+          <su-progress class="progress inverted error" value="100">Error</su-progress>
+        </div>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <su-progress class="progress active">Uploading Files</su-progress>
+        </code></pre>
+      </div>
+    </section>
+
     <script>
       this.on('mount', () => {
         this.navigation = this.extractNavigation(this.root)
