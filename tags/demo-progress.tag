@@ -296,6 +296,29 @@
       </div>
     </section>
 
+    <!-- ====================================================== -->
+    <!--                                               Attached -->
+    <!--                                               ======== -->
+    <section-header title="Attached">A progress bar can show progress of an element</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <div class="ui segment">
+          <su-progress class="top attached" value="52"></su-progress>
+          <p>La la la la</p>
+          <su-progress class="bottom attached" value="40"></su-progress>
+        </div>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <su-progress class="progress active">Uploading Files</su-progress>
+        </code></pre>
+      </div>
+    </section>
+
     <script>
       this.on('mount', () => {
         this.navigation = this.extractNavigation(this.root)
