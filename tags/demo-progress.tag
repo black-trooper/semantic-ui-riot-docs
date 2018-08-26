@@ -314,7 +314,60 @@
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
-          <su-progress class="progress active">Uploading Files</su-progress>
+          <div class="ui segment">
+            <su-progress class="top attached"></su-progress>
+            <p>La la la la</p>
+            <su-progress class="bottom attached"></su-progress>
+          </div>
+        </code></pre>
+      </div>
+    </section>
+
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <div class="ui card">
+          <div class="image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="content">
+            <a class="header">Project</a>
+            <div class="meta">
+              <span class="date">Started in 2014</span>
+            </div>
+          </div>
+          <div class="extra content">
+            <a>
+              <i class="user icon"></i>
+              22 Friends
+            </a>
+          </div>
+          <su-progress class="bottom attached" value="52"></su-progress>
+        </div>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <div class="ui card">
+            <div class="image">
+              <img src="/images/wireframe/image.png">
+            </div>
+            <div class="content">
+              <a class="header">Project</a>
+              <div class="meta">
+                <span class="date">Started in 2014</span>
+              </div>
+            </div>
+            <div class="extra content">
+              <a>
+                <i class="user icon"></i>
+                22 Friends
+              </a>
+            </div>
+            <su-progress class="bottom attached" value="52"></su-progress>
+          </div>
         </code></pre>
       </div>
     </section>
