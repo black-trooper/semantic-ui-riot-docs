@@ -366,7 +366,36 @@
                 22 Friends
               </a>
             </div>
-            <su-progress class="bottom attached" value="52"></su-progress>
+            <su-progress class="bottom attached"></su-progress>
+          </div>
+        </code></pre>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                                               Size -->
+    <!--                                               ======== -->
+    <section-header title="Size">A progress bar can vary in size</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-progress class="tiny" value="15">Tiny</su-progress>
+        <su-progress class="small" value="40">Small</su-progress>
+        <su-progress value="15">Standard</su-progress>
+        <su-progress class="large" value="10">Large</su-progress>
+        <su-progress class="big" value="10">Big</su-progress>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <div class="ui segment">
+            <su-progress class="tiny" >Tiny</su-progress>
+            <su-progress class="small" >Small</su-progress>
+            <su-progress >Standard</su-progress>
+            <su-progress class="large" >Large</su-progress>
+            <su-progress class="big" >Big</su-progress>
           </div>
         </code></pre>
       </div>
