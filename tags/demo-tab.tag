@@ -60,6 +60,11 @@
     <h2 class="ui dividing header">Variations</h2>
 
     <!-- ====================================================== -->
+    <!--                                             No segment -->
+    <!--                                             ========== -->
+    <tab-no-segment></tab-no-segment>
+
+    <!-- ====================================================== -->
     <!--                                               Inverted -->
     <!--                                               ======== -->
     <tab-inverted></tab-inverted>
@@ -86,6 +91,7 @@
     import './tab/tab-attached.tag'
     import './tab/tab-tabular.tag'
     import './tab/tab-active.tag'
+    import './tab/tab-no-segment.tag'
     import './tab/tab-inverted.tag'
     import './tab/tab-colored.tag'
     import './tab/tab-multiple.tag'
