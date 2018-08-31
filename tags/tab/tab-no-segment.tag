@@ -1,5 +1,5 @@
 <tab-no-segment>
-  <section-header title="No segment"></section-header>
+  <section-header title="No segment"><span class="ui label teal small">since 0.10.1</span></section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example
