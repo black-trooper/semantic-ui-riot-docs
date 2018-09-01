@@ -60,15 +60,15 @@
         <i class="icon code" onclick="{ toggleExample }"></i>
       </div>
       <div class="ui segment bottom attached">
-        <su-popup data-title="Elliot Fu" tooltip="Elliot has been a member since July 2012"><img src="/images/avatar/small/elliot.jpg" class="ui avatar image" /></su-popup>
-        <su-popup data-title="Stevie Feliciano" tooltip="Stevie has been a member since August 2013"><img src="/images/avatar/small/stevie.jpg" class="ui avatar image" /></su-popup>
-        <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="/images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Elliot Fu" tooltip="Elliot has been a member since July 2012"><img src="./images/avatar/small/elliot.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Stevie Feliciano" tooltip="Stevie has been a member since August 2013"><img src="./images/avatar/small/stevie.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="./images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
-        <su-popup data-title="Elliot Fu" tooltip="Elliot has been a member since July 2012"><img src="/images/avatar/small/elliot.jpg" class="ui avatar image" /></su-popup>
-        <su-popup data-title="Stevie Feliciano" tooltip="Stevie has been a member since August 2013"><img src="/images/avatar/small/stevie.jpg" class="ui avatar image" /></su-popup>
-        <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="/images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Elliot Fu" tooltip="Elliot has been a member since July 2012"><img src="./images/avatar/small/elliot.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Stevie Feliciano" tooltip="Stevie has been a member since August 2013"><img src="./images/avatar/small/stevie.jpg" class="ui avatar image" /></su-popup>
+        <su-popup data-title="Matt" tooltip="Matt has been a member since July 2014"><img src="./images/avatar/small/matt.jpg" class="ui avatar image" /></su-popup>
       </code></pre>
       </div>
     </section>
