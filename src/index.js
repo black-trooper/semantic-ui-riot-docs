@@ -17,6 +17,7 @@ import '../tags/demo-popup.tag'
 import '../tags/demo-radio.tag'
 import '../tags/demo-rating.tag'
 import '../tags/demo-tab.tag'
+import '../tags/demo-toast.tag'
 
 const redirect = sessionStorage.redirect
 delete sessionStorage.redirect

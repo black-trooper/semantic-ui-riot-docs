@@ -84,6 +84,7 @@
       'Radio',
       'Rating',
       'Tab',
+      'Toast',
     ]
 
     this.on('mount', () => {
