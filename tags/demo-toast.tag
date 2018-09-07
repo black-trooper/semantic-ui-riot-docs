@@ -300,6 +300,51 @@
     </section>
 
     <!-- ====================================================== -->
+    <!--                                                Size -->
+    <!--                                                ======= -->
+    <section-header title="Size">A message can have different sizes</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a mini message.', class: 'mini'}) }">Mini</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a tiny message.', class: 'tiny'}) }">Tiny</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a small message.', class: 'small'}) }">Small</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a large message.', class: 'large'}) }">Large</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a big message.', class: 'big'}) }">Big</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a huge message.', class: 'huge'}) }">Huge</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a massive message.', class: 'massive'}) }">Massive</button>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="prettyprint"><code>
+          <button class="ui button" onclick="{ showToast.bind(this, 'red') }">Red</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'mini') }">Mini</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'tiny') }">Tiny</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'small') }">Small</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'large') }">Large</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'big') }">Big</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'huge') }">Huge</button>
+          <button class="ui button" onclick="{ showToast.bind(this, 'massive') }">Massive</button>
+
+          <script>
+            this.showToast = size => {
+              this.suToast({
+                message: `This is a ${size} message.`,
+                class: size
+              })
+            }
+          </script>
+
+          <!-- only once at the root component -->
+          <su-toast></su-toast>
+          <!-- only once at the root component -->
+        </code></pre>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
     <!--                                               Position -->
     <!--                                               ======== -->
     <section-header title="Position">A toast can change the position.</section-header>
