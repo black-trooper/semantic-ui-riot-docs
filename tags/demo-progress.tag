@@ -49,10 +49,10 @@
 
           <script>
             this.decrement = () => {
-              this.refs.progress -= 10
+              this.refs.progress.value -= 10
             }
             this.increment = () => {
-              this.refs.progress += 10
+              this.refs.progress.value += 10
             }
           </script>
         </code></pre>
