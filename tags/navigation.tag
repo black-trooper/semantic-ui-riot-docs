@@ -81,6 +81,7 @@
       'Dropdown',
       'Modal',
       'Popup',
+      'Progress',
       'Radio',
       'Rating',
       'Tab',
