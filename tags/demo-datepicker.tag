@@ -27,8 +27,10 @@
         <su-datepicker ref="datepicker" />
         <div class="ui message">
           <p><b>value</b> : { refs.datepicker.value }</p>
+          <p><b>valueAsDate</b> : { refs.datepicker.valueAsDate }</p>
           <p><b>changed</b>: { refs.datepicker.changed() }</p>
         </div>
+        <button type="button" class="ui button" onclick="{ setDateString.bind(this, '2010-02-01') }">Set '2010-02-01'</button>
         <button type="button" class="ui button" onclick="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
         <button type="button" class="ui button" onclick="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
         <button type="button" onclick="{ reset }" class="ui button">Reset</button>
@@ -38,15 +40,21 @@
         <su-datepicker ref="datepicker" />
         <div class="ui message">
           <p><b>value</b> : { refs.datepicker.value }</p>
+          <p><b>valueAsDate</b> : { refs.datepicker.valueAsDate }</p>
           <p><b>changed</b>: { refs.datepicker.changed() }</p>
         </div>
+        <button type="button" class="ui button" onclick="{ setDateString.bind(this, '2010-02-01') }">Set '2010-02-01'</button>
         <button type="button" class="ui button" onclick="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
         <button type="button" class="ui button" onclick="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
         <button type="button" onclick="{ reset }" class="ui button">Reset</button>
 
         <script>
+          this.setDateString = dateString => {
+            this.refs.datepicker.value = dateString
+          }
+
           this.setDate = date => {
-            this.refs.datepicker.value = date
+            this.refs.datepicker.valueAsDate = date
           }
 
           this.navigateTo = date => {
@@ -214,7 +222,8 @@
     <!--                                   Internationalization -->
     <!--                                   ==================== -->
     <section-header title="Internationalization">
-      This component relies on a third party date management library called date-fns.<br/> Please refer to the <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a>      for supported languages.
+      This component relies on a third party date management library called date-fns.<br/> Please refer to the <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a>
+      for supported languages.
     </section-header>
 
     <section>
@@ -276,8 +285,12 @@
       this.update()
     })
 
+    this.setDateString = dateString => {
+      this.refs.datepicker.value = dateString
+    }
+
     this.setDate = date => {
-      this.refs.datepicker.value = date
+      this.refs.datepicker.valueAsDate = date
     }
 
     this.navigateTo = date => {
