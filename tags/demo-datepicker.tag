@@ -29,9 +29,9 @@
           <p><b>value</b> : { refs.datepicker.value }</p>
           <p><b>changed</b>: { refs.datepicker.changed() }</p>
         </div>
-        <button type="button" class="ui button" click="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
-        <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
-        <button type="button" click="{ reset }" class="ui button">Reset</button>
+        <button type="button" class="ui button" onclick="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
+        <button type="button" class="ui button" onclick="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
+        <button type="button" onclick="{ reset }" class="ui button">Reset</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
@@ -40,9 +40,9 @@
           <p><b>value</b> : { refs.datepicker.value }</p>
           <p><b>changed</b>: { refs.datepicker.changed() }</p>
         </div>
-        <button type="button" class="ui button" click="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
-        <button type="button" class="ui button" click="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
-        <button type="button" click="{ reset }" class="ui button">Reset</button>
+        <button type="button" class="ui button" onclick="{ setDate.bind(this, new Date(2010, 1, 1)) }">Set Feb 1 2010</button>
+        <button type="button" class="ui button" onclick="{ navigateTo.bind(this, new Date(2010, 2, 1)) }">To Mar 2010</button>
+        <button type="button" onclick="{ reset }" class="ui button">Reset</button>
 
         <script>
           this.setDate = date => {
@@ -125,7 +125,7 @@
           <p><b>value</b> : { refs.datepicker2.value }</p>
           <p><b>changed</b>: { refs.datepicker2.changed() }</p>
         </div>
-        <button type="button" click="{ reset2 }" class="ui button">Reset</button>
+        <button type="button" onclick="{ reset2 }" class="ui button">Reset</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
@@ -134,7 +134,7 @@
           <p><b>value</b> : { refs.datepicker2.value }</p>
           <p><b>changed</b>: { refs.datepicker2.changed() }</p>
         </div>
-        <button type="button" click="{ reset2 }" class="ui button">Reset</button>
+        <button type="button" onclick="{ reset2 }" class="ui button">Reset</button>
       </code></pre>
       </div>
     </section>

@@ -2,7 +2,7 @@
 
   <div class="ui fixed inverted main menu">
     <div class="ui container">
-      <a class="launch icon item" click="{ toggleMenu }">
+      <a class="launch icon item" onclick="{ toggleMenu }">
         <i class="content icon"></i>
       </a>
 
@@ -45,7 +45,7 @@
     <div class="item">
       <div class="header">Module</div>
       <div class="menu">
-        <a each="{menu in menus}" class="item { active : activeContent == kebab(menu) }" click="{ hideMenu }" href="demo-{ kebab(menu) }">{ menu }</a>
+        <a each="{menu in menus}" class="item { active : activeContent == kebab(menu) }" onclick="{ hideMenu }" href="demo-{ kebab(menu) }">{ menu }</a>
       </div>
     </div>
   </div>
@@ -59,6 +59,7 @@
       .fixed.main.menu {
         display: none;
       }
+
       .fixed.left.menu {
         display: block;
       }

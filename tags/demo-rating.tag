@@ -117,6 +117,7 @@
         <su-rating class="large star" value="3" max="4" /><br /><br />
         <su-rating class="huge star" value="3" max="4" /><br /><br />
         <su-rating class="massive star" value="3" max="4" /><br /><br />
+
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
@@ -152,8 +153,8 @@
           <p>value: { refs.rating.value }</p>
           <p>changed: { refs.rating.changed() }</p>
         </div>
-        <button type="button" click="{ setRefValue.bind(this, 1) }" class="ui button">Set 1</button>
-        <button type="button" click="{ setRefValue.bind(this, 4) }" class="ui button">Set 4</button>
+        <button type="button" onclick="{ setRefValue.bind(this, 1) }" class="ui button">Set 1</button>
+        <button type="button" onclick="{ setRefValue.bind(this, 4) }" class="ui button">Set 4</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
@@ -163,8 +164,8 @@
             <p>value: { refs.rating.value }</p>
             <p>changed: { refs.rating.changed() }</p>
           </div>
-          <button type="button" click="{ setRefValue.bind(this, 1) }" class="ui button">Set 1</button>
-          <button type="button" click="{ setRefValue.bind(this, 4) }" class="ui button">Set 4</button>
+          <button type="button" onclick="{ setRefValue.bind(this, 1) }" class="ui button">Set 1</button>
+          <button type="button" onclick="{ setRefValue.bind(this, 4) }" class="ui button">Set 4</button>
 
           <script>
             this.setRefValue = value => {

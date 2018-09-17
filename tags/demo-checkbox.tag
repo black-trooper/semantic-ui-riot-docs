@@ -175,14 +175,14 @@
       <div class="ui segment bottom attached">
         <su-checkbox label="{ checkbox_label }" />
         <div style="margin-top:1em">
-          <button type="button" click="{ changeCheckboxLabel }" class="ui button">Change label</button>
+          <button type="button" onclick="{ changeCheckboxLabel }" class="ui button">Change label</button>
         </div>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
           <su-checkbox label="{ checkbox_label }" />
-          <button type="button" click="{ changeCheckboxLabel }" class="ui button">Change label</button>
+          <button type="button" onclick="{ changeCheckboxLabel }" class="ui button">Change label</button>
           
           <script>
             this.checkbox_label = 'change'
@@ -217,8 +217,8 @@
           <p>{ refs.checkbox1.checked ? 'on' : 'off' }</p>
         </div>
 
-        <button type="button" click="{ setRefValue.bind(this, true) }" class="ui button">Check on</button>
-        <button type="button" click="{ setRefValue.bind(this, false) }" class="ui button">Check off</button>
+        <button type="button" onclick="{ setRefValue.bind(this, true) }" class="ui button">Check on</button>
+        <button type="button" onclick="{ setRefValue.bind(this, false) }" class="ui button">Check off</button>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
@@ -234,8 +234,8 @@
             <p>{ refs.checkbox1.checked ? 'on' : 'off' }</p>
           </div>
           
-          <button type="button" click="{ setRefValue.bind(this, true) }" class="ui button">Check on</button>
-          <button type="button" click="{ setRefValue.bind(this, false) }" class="ui button">Check off</button>
+          <button type="button" onclick="{ setRefValue.bind(this, true) }" class="ui button">Check on</button>
+          <button type="button" onclick="{ setRefValue.bind(this, false) }" class="ui button">Check off</button>
           
           <script>
             this.setRefValue = value => {
@@ -264,9 +264,9 @@
           <p>Checkbox choice{ refs.checkbox3.value}</p>
         </div>
 
-        <button type="button" click="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
-        <button type="button" click="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
-        <button type="button" click="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
+        <button type="button" onclick="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
+        <button type="button" onclick="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
+        <button type="button" onclick="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
@@ -283,9 +283,9 @@
             <p>Checkbox choice{ refs.checkbox3.value}</p>
           </div>
       
-          <button type="button" click="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
-          <button type="button" click="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
-          <button type="button" click="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
+          <button type="button" onclick="{ setRefValue2.bind(this, 1) }" class="ui button">Choice1</button>
+          <button type="button" onclick="{ setRefValue2.bind(this, [2]) }" class="ui button">Choice2</button>
+          <button type="button" onclick="{ setRefValue2.bind(this, '1, 2') }" class="ui button">Choice1,2</button>
 
           <script>
             this.on('mount', () => {
@@ -323,8 +323,8 @@
           <p>{ refs.checkbox2.checked ? 'on' : 'off' }</p>
         </div>
 
-        <button type="button" click="{ setCheckboxValue.bind(this, true) }" class="ui button">Check on</button>
-        <button type="button" click="{ setCheckboxValue.bind(this, false) }" class="ui button">Check off</button>
+        <button type="button" onclick="{ setCheckboxValue.bind(this, true) }" class="ui button">Check on</button>
+        <button type="button" onclick="{ setCheckboxValue.bind(this, false) }" class="ui button">Check off</button>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
@@ -340,8 +340,8 @@
             <p>{ refs.checkbox2.checked ? 'on' : 'off' }</p>
           </div>
 
-          <button type="button" click="{ setCheckboxValue.bind(this, true) }" class="ui button">Check on</button>
-          <button type="button" click="{ setCheckboxValue.bind(this, false) }" class="ui button">Check off</button>
+          <button type="button" onclick="{ setCheckboxValue.bind(this, true) }" class="ui button">Check on</button>
+          <button type="button" onclick="{ setCheckboxValue.bind(this, false) }" class="ui button">Check off</button>
 
           <script>
             this.setCheckboxValue = value => {

@@ -16,9 +16,9 @@
         <p>changed: { refs.dropdown1.changed() }</p>
       </div>
 
-      <button type="button" click="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
-      <button type="button" click="{ setRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
-      <button type="button" click="{ reset }" class="ui button">Reset</button>
+      <button type="button" onclick="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
+      <button type="button" onclick="{ setRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
+      <button type="button" onclick="{ reset }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
       <pre class="prettyprint"><code>
@@ -32,9 +32,9 @@
           <p>changed: { refs.dropdown1.changed() }</p>
         </div>
   
-        <button type="button" click="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
-        <button type="button" click="{ setRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
-        <button type="button" click="{ reset }" class="ui button">Reset</button>
+        <button type="button" onclick="{ setRefValue.bind(this, null) }" class="ui button">Select Default</button>
+        <button type="button" onclick="{ setRefValue.bind(this, ['angular', 'css']) }" class="ui button">Select Angular &amp; CSS</button>
+        <button type="button" onclick="{ reset }" class="ui button">Reset</button>
   
         <script>
           this.dropdownItems = [

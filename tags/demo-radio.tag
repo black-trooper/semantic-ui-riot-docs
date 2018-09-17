@@ -188,14 +188,14 @@
       <div class="ui segment bottom attached">
         <su-radio label="{ radio_label }" />
         <div style="margin-top:1em">
-          <button type="button" click="{ changeLabel }" class="ui button">Change label</button>
+          <button type="button" onclick="{ changeLabel }" class="ui button">Change label</button>
         </div>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="prettyprint"><code>
       <su-radio label="{ radio_label }" />
-      <button type="button" click="{ changeLabel }" class="ui button">Change label</button>
+      <button type="button" onclick="{ changeLabel }" class="ui button">Change label</button>
         
       <script>
         this.radio_label = 'change'
@@ -231,8 +231,8 @@
           <p>Radio choice{ refs.radio1.value}</p>
         </div>
 
-        <button type="button" click="{ setValue.bind(this, 1) }" class="ui button">Choice1</button>
-        <button type="button" click="{ setValue.bind(this, 2) }" class="ui button">Choice2</button>
+        <button type="button" onclick="{ setValue.bind(this, 1) }" class="ui button">Choice1</button>
+        <button type="button" onclick="{ setValue.bind(this, 2) }" class="ui button">Choice2</button>
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
@@ -249,8 +249,8 @@
             <p>Radio choice{ refs.radio1.value}</p>
           </div>
       
-          <button type="button" click="{ setValue.bind(this, 1) }" class="ui button">Choice1</button>
-          <button type="button" click="{ setValue.bind(this, 2) }" class="ui button">Choice2</button>
+          <button type="button" onclick="{ setValue.bind(this, 1) }" class="ui button">Choice1</button>
+          <button type="button" onclick="{ setValue.bind(this, 2) }" class="ui button">Choice2</button>
 
           <script>
             this.on('mount', () => {
