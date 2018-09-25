@@ -29,7 +29,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox>
             Make my profile visible
           </su-checkbox>
@@ -52,7 +52,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox class="slider">
             Accept terms and conditions
           </su-checkbox>
@@ -75,7 +75,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox class="toggle">
             Subscribe to weekly newsletter
           </su-checkbox>
@@ -103,7 +103,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox class="read-only" checked="true">
             Read Only
           </su-checkbox>
@@ -126,7 +126,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox checked="true">
             Active
           </su-checkbox>
@@ -149,7 +149,7 @@
         </su-checkbox>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox class="disabled">
             Disabled
           </su-checkbox>
@@ -180,7 +180,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox label="{ checkbox_label }" />
           <button type="button" onclick="{ changeCheckboxLabel }" class="ui button">Change label</button>
           
@@ -222,7 +222,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox ref="checkbox1">
             Make my profile visible
           </su-checkbox>
@@ -270,7 +270,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox-group ref="checkbox3" value="{ checkbox3 }">
             <su-checkbox value="1">Checkbox choice1</su-checkbox>
             <su-checkbox value="2">Checkbox choice2</su-checkbox>
@@ -328,7 +328,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-checkbox ref="checkbox2" checked="{ checkbox2 }">
             Make my profile visible
           </su-checkbox>

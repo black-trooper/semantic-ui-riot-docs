@@ -13,7 +13,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
           <su-tabset class="no-segment">
             <su-tab title="Home">Home content</su-tab>
             <su-tab title="Messages">Messages content</su-tab>
@@ -36,7 +36,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset>
           <su-tab title="Home" class="none">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>

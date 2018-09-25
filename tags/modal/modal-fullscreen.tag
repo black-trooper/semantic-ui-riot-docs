@@ -12,7 +12,7 @@
       <button class="ui button" onclick="{ showModal }">Show full screen modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
           <su-modal class="fullscreen" ref="modal">
             Full screen modal
           </su-modal>

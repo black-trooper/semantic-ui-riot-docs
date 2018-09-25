@@ -1,5 +1,6 @@
 <dropdown-search>
-  <section-header title="Search Selection">A selection dropdown can allow a user to search through a large list of choices.</section-header>
+  <section-header title="Search Selection">A selection dropdown can allow a user to search through a large list of
+    choices.</section-header>
   <section>
     <div class="ui segment secondary top attached example">
       Example
@@ -9,7 +10,7 @@
       <su-dropdown items="{ dropdownItems }" search="true"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-dropdown items="{ dropdownItems }" search="true"></su-dropdown>
   
         <script>

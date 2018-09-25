@@ -22,7 +22,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset>
           <su-tab title="red" title-class="red" class="red segment">Red</su-tab>
           <su-tab title="orange" title-class="orange" class="orange segment">Orange</su-tab>
@@ -54,7 +54,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="red">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -77,7 +77,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="red">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -110,7 +110,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="inverted">
           <su-tab title="red" title-class="red" class="red segment inverted">Red</su-tab>
           <su-tab title="orange" title-class="orange" class="orange segment inverted">Orange</su-tab>
@@ -142,7 +142,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="red inverted">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>

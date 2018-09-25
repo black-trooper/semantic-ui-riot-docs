@@ -16,7 +16,7 @@
       <button class="ui button" onclick="{ showModal }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-modal modal="{ modal }" ref="modal">
         </su-modal>
         <div class="ui message" if="{ callbackMessage.length > 0 }">

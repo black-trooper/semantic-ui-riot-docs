@@ -30,7 +30,7 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showConfirm }">Show confirm</button>
 
           <script>
@@ -64,7 +64,7 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showConfirm }">Show confirm</button>
 
           <script>
@@ -108,7 +108,7 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showConfirm }">Show confirm</button>
 
           <script>
@@ -157,7 +157,7 @@
         <button class="ui button" onclick="{ showConfirmCallback }">Show confirm and callback</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showConfirmCallbackPositiveOnly }">Show confirm and callback(positive only)</button>
           <button class="ui button" onclick="{ showConfirmCallback }">Show confirm and callback</button>
 
@@ -192,7 +192,7 @@
 
     <h4>index.js</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         import riot from 'riot'
         import su_riot from 'semantic-ui-riot'
         import './sample.tag'
@@ -222,7 +222,7 @@
 
     <h4>sample.tag</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <sample>
           <button class="ui button" onclick="{ showConfirm }">Show confirm</button>
 
@@ -237,7 +237,7 @@
 
     <h4>index.html</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <body>
           <su-confirm></su-confirm>
           <sample></sample>

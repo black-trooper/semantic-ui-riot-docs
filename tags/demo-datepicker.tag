@@ -36,7 +36,7 @@
         <button type="button" onclick="{ reset }" class="ui button">Reset</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker ref="datepicker" />
         <div class="ui message">
           <p><b>value</b> : { refs.datepicker.value }</p>
@@ -91,7 +91,7 @@
         <su-datepicker popup="true" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker popup="true" />
       </code></pre>
       </div>
@@ -107,7 +107,7 @@
         <su-datepicker popup="true" pattern="YYYY/MM/DD" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-datepicker popup="true" pattern="YYYY/MM/DD" />
         </code></pre>
       </div>
@@ -136,7 +136,7 @@
         <button type="button" onclick="{ reset2 }" class="ui button">Reset</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker value="{ new Date(2017,0,25) }" ref="datepicker2" />
         <div class="ui message">
           <p><b>value</b> : { refs.datepicker2.value }</p>
@@ -160,7 +160,7 @@
         <su-datepicker class="read-only" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker class="read-only" />
     </code></pre>
       </div>
@@ -174,7 +174,7 @@
         <su-datepicker popup="true" class="read-only" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker popup="true" class="read-only" />
       </code></pre>
       </div>
@@ -193,7 +193,7 @@
         <su-datepicker class="disabled" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker class="disabled" />
       </code></pre>
       </div>
@@ -207,7 +207,7 @@
         <su-datepicker popup="true" class="disabled" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker popup="true" class="disabled" />
       </code></pre>
       </div>
@@ -235,7 +235,7 @@
         <su-datepicker locale="{ localeJa }" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-datepicker locale="{ localeJa }" />
         <script>
           import locale_ja from 'date-fns/locale/ja'
@@ -252,7 +252,7 @@
 
     <h4>index.js</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         import riot from 'riot'
         import su_riot from 'semantic-ui-riot'
         import locale_ja from 'date-fns/locale/ja'
@@ -268,7 +268,7 @@
 
     <h4>sample.tag</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
       <sample>
         <su-datepicker popup="true" />
       </sample>

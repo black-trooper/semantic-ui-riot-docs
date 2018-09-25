@@ -21,7 +21,7 @@
       <button type="button" onclick="{ reset }" class="ui button">Reset</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-dropdown items="{ dropdownItems }" ref="dropdown1" multiple="true" value="{['design', 'ember']}"></su-dropdown>
   
         <div class="ui message">

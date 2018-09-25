@@ -24,7 +24,7 @@
       <button class="ui button" onclick="{ showModal.bind(this, this.refs.modal_large) }">Show large size modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-modal class="mini" ref="modal_mini">
           Mini size modal
         </su-modal>

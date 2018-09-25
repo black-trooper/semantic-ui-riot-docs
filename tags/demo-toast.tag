@@ -27,7 +27,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, 'Hello!') }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show alert</button>
 
           <script>
@@ -56,7 +56,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Title', message: 'message'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show toast</button>
 
           <script>
@@ -88,7 +88,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', icon: 'inbox'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show toast</button>
 
           <script>
@@ -126,7 +126,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'warning'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show alert</button>
 
           <script>
@@ -159,7 +159,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'info'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show alert</button>
 
           <script>
@@ -192,7 +192,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'positive'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show alert</button>
 
           <script>
@@ -225,7 +225,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'negative'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast }">Show alert</button>
 
           <script>
@@ -269,7 +269,7 @@
         <button class="ui button black" onclick="{ showToast.bind(this, { message: 'black', class: 'black'}) }">Black</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button red" onclick="{ showToast.bind(this, 'red') }">Red</button>
           <button class="ui button orange" onclick="{ showToast.bind(this, 'orange') }">Orange</button>
           <button class="ui button yellow" onclick="{ showToast.bind(this, 'yellow') }">Yellow</button>
@@ -318,7 +318,7 @@
         <button class="ui button" onclick="{ showToast.bind(this, { message: 'This is a massive message.', class: 'massive'}) }">Massive</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showToast.bind(this, 'red') }">Red</button>
           <button class="ui button" onclick="{ showToast.bind(this, 'mini') }">Mini</button>
           <button class="ui button" onclick="{ showToast.bind(this, 'tiny') }">Tiny</button>
@@ -350,7 +350,7 @@
     <section-header title="Position">A toast can change the position.</section-header>
     <section>
       <div class="ui segment inverted">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-toast position="top left"></su-toast>
           <su-toast position="top right"></su-toast>
           <su-toast position="bottom left"></su-toast>

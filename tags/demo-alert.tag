@@ -29,7 +29,7 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showAlert }">Show alert</button>
 
           <script>
@@ -63,7 +63,7 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <button class="ui button" onclick="{ showAlert }">Show alert</button>
 
           <script>
@@ -100,27 +100,27 @@
 
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
-              <button class="ui button" onclick="{ showAlert }">Show alert</button>
-    
-              <script>
-                this.showAlert = () => {
-                  this.suAlert({
-                    message: 'message',
-                    button: {
-                      default: true,
-                      text: 'OK',
-                      type: 'primary',
-                      icon: 'check',
-                    }
-                  })
+        <pre class="language-markup"><code>
+          <button class="ui button" onclick="{ showAlert }">Show alert</button>
+
+          <script>
+            this.showAlert = () => {
+              this.suAlert({
+                message: 'message',
+                button: {
+                  default: true,
+                  text: 'OK',
+                  type: 'primary',
+                  icon: 'check',
                 }
-              </script>
-    
-              <!-- only once at the root component -->
-              <su-alert></su-alert>
-              <!-- only once at the root component -->
-            </code></pre>
+              })
+            }
+          </script>
+
+          <!-- only once at the root component -->
+          <su-alert></su-alert>
+          <!-- only once at the root component -->
+        </code></pre>
       </div>
     </section>
     <!-- =================================================================================== -->
@@ -135,7 +135,7 @@
 
     <h4>index.js</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-javascript"><code>
         import riot from 'riot'
         import su_riot from 'semantic-ui-riot'
         import './sample.tag'
@@ -158,7 +158,7 @@
 
     <h4>sample.tag</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <sample>
           <button class="ui button" onclick="{ showAlert }">Show alert</button>
 
@@ -173,7 +173,7 @@
 
     <h4>index.html</h4>
     <div class="ui inverted segment">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <body>
           <su-alert></su-alert>
           <sample></sample>

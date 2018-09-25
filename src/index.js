@@ -1,6 +1,8 @@
 import riot from 'riot'
 import route from 'riot-route'
 import 'semantic-ui-riot'
+import prism from 'prismjs'
+import 'prismjs/themes/prism-tomorrow.css'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
@@ -49,8 +51,7 @@ route.start(true)
 riot.mixin({
   init: function () {
     this.on('mount', () => {
-      if (typeof PR !== 'undefined')
-        PR.prettyPrint(false)
+      prism.highlightAll()
     })
   },
 

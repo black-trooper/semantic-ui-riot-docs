@@ -32,7 +32,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="secondary">
           <su-tab title="First">
             <su-tabset class="top tabular">

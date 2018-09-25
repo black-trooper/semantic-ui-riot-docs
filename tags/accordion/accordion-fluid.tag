@@ -24,7 +24,7 @@
       </su-accordionset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
           <su-accordionset class="styled">
             <su-accordion title="What is a dog?">
               <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in

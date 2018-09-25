@@ -30,7 +30,7 @@
         </su-radio-group>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-radio-group>
             <su-radio value="1">Radio choice1</su-radio>
             <su-radio value="2">Radio choice2</su-radio>
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <div class="ui form">
             <su-radio-group class="grouped fields">
               <label>Outbound Throughput</label>
@@ -112,7 +112,7 @@
         </su-radio-group>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
       <su-radio-group>
         <su-radio class="read-only">
           Read Only
@@ -138,7 +138,7 @@
         </su-radio-group>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-radio-group value="true">
           <su-radio value="true">Active</su-radio>
           <su-radio value="false">None Active</su-radio>
@@ -162,7 +162,7 @@
         </su-radio>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
       <su-radio class="disabled">
         Disabled
       </su-radio>
@@ -193,7 +193,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
       <su-radio label="{ radio_label }" />
       <button type="button" onclick="{ changeLabel }" class="ui button">Change label</button>
         
@@ -236,7 +236,7 @@
       </div>
 
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-radio-group ref="radio1" value="{ radio1 }">
             <su-radio value="1">Radio choice1</su-radio>
             <su-radio value="2">Radio choice2</su-radio>

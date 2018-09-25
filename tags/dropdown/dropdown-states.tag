@@ -12,7 +12,7 @@
       <su-dropdown items="{ dropdownItems }" class="read-only" search="true"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-dropdown class="read-only"></su-dropdown>
 
         <script>
@@ -49,7 +49,7 @@
       <su-dropdown items="{ dropdownItems }" class="disabled"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-dropdown class="disabled"></su-dropdown>
 
         <script>

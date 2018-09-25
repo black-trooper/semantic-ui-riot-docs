@@ -9,7 +9,7 @@
       <su-dropdown items="{ dropdownItems }"></su-dropdown>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-dropdown items="{ dropdownItems }"></su-dropdown>
   
         <script>

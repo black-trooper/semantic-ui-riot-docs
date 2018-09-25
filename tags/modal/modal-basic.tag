@@ -12,7 +12,7 @@
       <button class="ui button" onclick="{ showModal }">Show modal</button>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-modal modal="{ modal }" class="basic" ref="modal">
           Your inbox is getting full, would you like us to enable automatic archiving of old messages?
         </su-modal>

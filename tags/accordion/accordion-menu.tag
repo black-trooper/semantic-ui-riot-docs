@@ -74,7 +74,7 @@
       </su-accordionset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-accordionset class="vertical menu">
           <div class="item">
             <su-accordion title="Size">

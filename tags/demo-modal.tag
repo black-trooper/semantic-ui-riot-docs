@@ -34,7 +34,7 @@
     <section-header title="Header">A modal can have a header</section-header>
     <section>
       <div class="ui segment inverted">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-modal modal="{ modal }" />
 
         <script>
@@ -52,7 +52,7 @@
     <section-header title="Content">A modal can contain content</section-header>
     <section>
       <div class="ui segment inverted">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-modal>
           <p></p>
           <p></p>
@@ -68,7 +68,7 @@
     <section-header title="Image Content">A modal can contain image content</section-header>
     <section>
       <div class="ui segment inverted">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-modal>
           <div class="ui image">
             <img />
@@ -87,7 +87,7 @@
     <section-header title="Actions">A modal can contain a row of actions</section-header>
     <section>
       <div class="ui segment inverted">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-modal modal="{ modal }" />
 
         <script>

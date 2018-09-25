@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="three column item" lazy-mount="true">
           <su-tab title="Home"><child>Home content</child></su-tab>
           <su-tab title="Messages"><child>Messages content</child></su-tab>

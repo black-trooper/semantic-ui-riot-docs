@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress" ref="progress">Uploading Files</su-progress>
 
           <div class="ui icon buttons">
@@ -62,7 +62,8 @@
     <!-- ====================================================== -->
     <!--                                             Indicating -->
     <!--                                             ========== -->
-    <section-header title="Indicating">An indicating progress bar visually indicates the current level of progress of a task</section-header>
+    <section-header title="Indicating">An indicating progress bar visually indicates the current level of progress of a
+      task</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
@@ -81,7 +82,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="indicating" ref="progress">{ percent }% Funding</su-progress>
 
           <div class="ui icon buttons">
@@ -123,7 +124,7 @@
         <su-progress value="20"></su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress></su-progress>
         </code></pre>
       </div>
@@ -142,7 +143,7 @@
         <su-progress class="progress" value="29"></su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress"></su-progress>
         </code></pre>
       </div>
@@ -161,7 +162,7 @@
         <su-progress class="progress" value="30">Uploading Files</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress">Uploading Files</su-progress>
         </code></pre>
       </div>
@@ -185,7 +186,7 @@
         <su-progress class="progress active" value="52">Uploading Files</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress active">Uploading Files</su-progress>
         </code></pre>
       </div>
@@ -204,7 +205,7 @@
         <su-progress class="progress success" value="100">Everything worked, your file is all ready.</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress success">Everything worked, your file is all ready.</su-progress>
         </code></pre>
       </div>
@@ -223,7 +224,7 @@
         <su-progress class="progress warning" value="100">Your file didn't meet the minimum resolution requirements.</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress warning">Your file didn't meet the minimum resolution requirements.</su-progress>
         </code></pre>
       </div>
@@ -242,7 +243,7 @@
         <su-progress class="progress error" value="100">There was an error.</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress error">There was an error.</su-progress>
         </code></pre>
       </div>
@@ -261,7 +262,7 @@
         <su-progress class="disabled" value="50"></su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="disabled"></su-progress>
         </code></pre>
       </div>
@@ -290,7 +291,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-progress class="progress active">Uploading Files</su-progress>
         </code></pre>
       </div>
@@ -313,7 +314,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <div class="ui segment">
             <su-progress class="top attached"></su-progress>
             <p>La la la la</p>
@@ -332,6 +333,7 @@
         <div class="ui card">
           <div class="image">
             <img src="/images/wireframe/image.png">
+
           </div>
           <div class="content">
             <a class="header">Project</a>
@@ -349,7 +351,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <div class="ui card">
             <div class="image">
               <img src="/images/wireframe/image.png">
@@ -389,7 +391,7 @@
         <su-progress class="big" value="10">Big</su-progress>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <div class="ui segment">
             <su-progress class="tiny" >Tiny</su-progress>
             <su-progress class="small" >Small</su-progress>

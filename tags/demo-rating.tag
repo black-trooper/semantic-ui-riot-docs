@@ -27,7 +27,7 @@
         <su-rating />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating />
         </code></pre>
       </div>
@@ -46,7 +46,7 @@
         <su-rating class="star" value="3" max="4" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating class="star" value="3" max="4" />
         </code></pre>
       </div>
@@ -65,7 +65,7 @@
         <su-rating class="heart" value="1" max="3" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating class="heart" value="1" max="3" />
         </code></pre>
       </div>
@@ -89,7 +89,7 @@
         <su-rating class="star read-only" value="1" max="3" />
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating class="star read-only" value="1" max="3" />
         </code></pre>
       </div>
@@ -118,9 +118,11 @@
         <su-rating class="huge star" value="3" max="4" /><br /><br />
         <su-rating class="massive star" value="3" max="4" /><br /><br />
 
+
+
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating class="mini star" value="3" max="4" />
           <su-rating class="tiny star" value="3" max="4" />
           <su-rating class="small star" value="3" max="4" />
@@ -157,7 +159,7 @@
         <button type="button" onclick="{ setRefValue.bind(this, 4) }" class="ui button">Set 4</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
           <su-rating class="star" value="3" max="4" ref="rating" />
           <div class="ui message">
             <div class="header">Rating</div>
@@ -198,7 +200,7 @@
         </div>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
-        <pre class="prettyprint"><code>
+        <pre class="language-markup"><code>
         <su-rating class="star" value="3" max="4" ref="rating2" />
         <div class="ui message">
           <div class="header">Rating</div>

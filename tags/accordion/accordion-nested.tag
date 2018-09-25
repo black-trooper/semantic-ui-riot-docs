@@ -1,5 +1,6 @@
 <accordion-nested>
-  <section-header title="Nested Accordions">An accordion can have multiple levels of nested content. This content can either be in a nested accordion or simply another
+  <section-header title="Nested Accordions">An accordion can have multiple levels of nested content. This content can
+    either be in a nested accordion or simply another
     level of title and content</section-header>
   <section>
     <div class="ui segment secondary top attached example">
@@ -36,7 +37,7 @@
       </su-accordionset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-accordionset class="styled">
           <su-accordion title="Level 1">
             <p>Welcome to level 1</p>

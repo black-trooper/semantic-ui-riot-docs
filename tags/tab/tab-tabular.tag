@@ -13,7 +13,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="top tabular">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -36,7 +36,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="bottom tabular">
           <su-tab title="Home">Home content</su-tab>
           <su-tab title="Messages">Messages content</su-tab>
@@ -70,7 +70,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="left tabular">
           <div class="ui grid">
             <div class="four wide column">
@@ -115,7 +115,7 @@
       </su-tabset>
     </div>
     <div class="ui segment bottom attached inverted transition hidden">
-      <pre class="prettyprint"><code>
+      <pre class="language-markup"><code>
         <su-tabset class="right tabular">
           <div class="ui grid">
             <div class="twelve wide stretched column">
