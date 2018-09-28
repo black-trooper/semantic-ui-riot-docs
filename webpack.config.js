@@ -73,8 +73,7 @@ module.exports = {
   plugins: [
     new webpack.LoaderOptionsPlugin({ options: {} }),
     new webpack.ProvidePlugin({
-      riot: 'riot',
-      dateFns: 'date-fns'
+      riot: 'riot'
     })
   ]
 };
