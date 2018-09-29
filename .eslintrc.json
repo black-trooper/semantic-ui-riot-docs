@@ -38,6 +38,7 @@
     ]
   },
   "globals": {
+    "riot": true,
     "observable": true,
     "opts": true
   }
