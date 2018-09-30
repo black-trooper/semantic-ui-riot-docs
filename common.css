@@ -1,0 +1,76 @@
+pre[class*="language-"],
+code[class*="language-"] {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: auto;
+  font-family: monospace !important;
+}
+
+.ui.inverted.segment {
+  background-color: #2d2d2d !important;
+}
+
+.example i.code {
+  right: 1em;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h3.ui.header:first-child {
+  margin-top: calc(2rem - 0.142857em);
+}
+
+.content-wrapper {
+  margin-left: 15.5rem
+}
+
+.main.container {
+  margin-right: 387px;
+  position: relative;
+}
+
+.ui.right.rail {
+  margin-left: 3em;
+  padding-top: 2em;
+  width: 319px;
+}
+
+.sticky {
+  position: sticky;
+  padding-top: 1.5rem;
+  top: 0;
+}
+
+p {
+  margin: 1em 0em;
+}
+
+content {
+  position: relative;
+}
+
+@media only screen and (max-width: 1144px) {
+  .fixed.menu .container {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+@media only screen and (max-width: 1145px) {
+  .content-wrapper {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+
+  .ui.dividing.right.rail {
+    display: none;
+  }
+
+  .main.container {
+    margin-right: 0;
+  }
+}

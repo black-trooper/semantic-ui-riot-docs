@@ -3,6 +3,7 @@ import route from 'riot-route'
 import 'semantic-ui-riot'
 import prism from 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
+import '../common.css'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
