@@ -58,7 +58,7 @@
           }
 
           this.navigateTo = date => {
-            this.refs.datepicker.opts.currentDate = date
+            this.refs.datepicker.currentDate = date
           }
 
           this.reset = () => {
@@ -219,6 +219,55 @@
     <h2 class="ui dividing header">Examples</h2>
 
     <!-- ====================================================== -->
+    <!--                                    Year first datepicker -->
+    <!--                                    =================== -->
+    <section-header title="Year first datepicker">
+      A year first datepicker allow you to select a date by starting to select a year
+    </section-header>
+
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-datepicker start-mode="year" />
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <su-datepicker startMode="year" />
+        </code></pre>
+      </div>
+    </section>
+
+    <p>
+      When combined with 'year-range' , 'current-date' it can be used for birth date
+    </p>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-datepicker start-mode="year" popup="true" current-date="{ get30YearsAgo() }" placeholder="birthday" />
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <su-datepicker start-mode="year" popup="true" current-date="{ get30YearsAgo() }" year-range="40" placeholder="birthday" />
+
+          <script>
+            this.get30YearsAgo = () => {
+              let today = new Date()
+              today.setFullYear(today.getFullYear() - 31 - today.getFullYear() % 10)
+
+              return today
+            }
+          </script>
+        </code></pre>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
     <!--                                   Internationalization -->
     <!--                                   ==================== -->
     <section-header title="Internationalization">
@@ -293,8 +342,14 @@
       this.refs.datepicker.valueAsDate = date
     }
 
+    this.get30YearsAgo = () => {
+      let today = new Date()
+      today.setFullYear(today.getFullYear() - 30 - today.getFullYear() % 10)
+      return today
+    }
+
     this.navigateTo = date => {
-      this.refs.datepicker.opts.currentDate = date
+      this.refs.datepicker.currentDate = date
     }
 
     this.reset = () => {
