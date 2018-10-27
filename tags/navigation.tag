@@ -81,6 +81,7 @@
       'Datepicker',
       'Dropdown',
       'Modal',
+      'Pagination',
       'Popup',
       'Progress',
       'Radio',
