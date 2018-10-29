@@ -75,9 +75,9 @@
     <h2 class="ui dividing header">States</h2>
 
     <!-- ====================================================== -->
-    <!--                                    Current page number -->
+    <!--                                    Active page number -->
     <!--                                    =================== -->
-    <section-header title="Current page number">A pagination can set current page number.</section-header>
+    <section-header title="Active page number">A pagination can set active page number.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
