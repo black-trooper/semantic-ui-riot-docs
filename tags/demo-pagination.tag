@@ -123,6 +123,17 @@
               <li each="{ item in message }">{ item }</li>
             </ul>
           </div>
+
+          <script>
+            this.message = []
+
+            this.on('mount', () => {
+              this.refs.pagination.on('change', pageNumber => {
+                this.message.push(`Changed. page number: ${pageNumber}`)
+                this.update()
+              })
+            })
+          </script>
         </code></pre>
       </div>
     </section>
