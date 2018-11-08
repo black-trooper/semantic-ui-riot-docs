@@ -108,6 +108,40 @@
       </div>
     </section>
 
+    <!-- ====================================================== -->
+    <!--                                               Progress -->
+    <!--                                               ======== -->
+    <section-header title="Progress">A toast can attach a progress bar</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', progress: 'top'}) }">Show toast with top attached progress</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', progress: 'bottom'}) }">Show toast with bottom attached progress</button>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <button class="ui button" onclick="{ showToast }">Show toast</button>
+
+          <script>
+            this.showToast = () => {
+              this.suToast({
+                title: 'Have you heard about our mailing list?',
+                message: 'Get the best news in your e-mail every day.',
+                progress: 'bottom' // or top
+              })
+            }
+          </script>
+
+          <!-- only once at the root component -->
+          <su-toast></su-toast>
+          <!-- only once at the root component -->
+        </code></pre>
+      </div>
+    </section>
+
     <!-- =================================================================================== -->
     <!--                                                                          Variations -->
     <!-- =================================================================================== -->
@@ -147,8 +181,8 @@
     </section>
 
     <!-- ====================================================== -->
-    <!--                                                  Info -->
-    <!--                                                  ===== -->
+    <!--                                                   Info -->
+    <!--                                                   ==== -->
     <section-header title="Info">A toast may be formatted to display information.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
@@ -180,16 +214,16 @@
     </section>
 
     <!-- ====================================================== -->
-    <!--                                     Positive / Success -->
-    <!--                                     ================== -->
-    <section-header title="Positive / Success">A toast may be formatted to display a positive message.</section-header>
+    <!--                                                Success -->
+    <!--                                                ======= -->
+    <section-header title="Success">A toast may be formatted to display a positive message.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
         <i class="icon code" onclick="{ toggleExample }"></i>
       </div>
       <div class="ui segment bottom attached">
-        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'positive'}) }">Show toast</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'success'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="language-markup"><code>
@@ -200,7 +234,7 @@
               this.suToast({
                 title: 'Have you heard about our mailing list?',
                 message: 'Get the best news in your e-mail every day.',
-                class: 'positive' // or 'success'
+                class: 'success'
               })
             }
           </script>
@@ -213,16 +247,16 @@
     </section>
 
     <!-- ====================================================== -->
-    <!--                                       Negative / Error -->
-    <!--                                       ================ -->
-    <section-header title="Negative / Error">A toast may be formatted to display a negative message.</section-header>
+    <!--                                                  Error -->
+    <!--                                                  ===== -->
+    <section-header title="Error">A toast may be formatted to display a negative message.</section-header>
     <section>
       <div class="ui segment secondary top attached example">
         Example
         <i class="icon code" onclick="{ toggleExample }"></i>
       </div>
       <div class="ui segment bottom attached">
-        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'negative'}) }">Show toast</button>
+        <button class="ui button" onclick="{ showToast.bind(this, { title: 'Have you heard about our mailing list?', message: 'Get the best news in your e-mail every day.', class: 'error'}) }">Show toast</button>
       </div>
       <div class="ui segment bottom attached inverted transition hidden">
         <pre class="language-markup"><code>
@@ -233,7 +267,7 @@
               this.suToast({
                 title: 'Have you heard about our mailing list?',
                 message: 'Get the best news in your e-mail every day.',
-                class: 'negative' // or 'error'
+                class: 'error'
               })
             }
           </script>
@@ -300,8 +334,8 @@
     </section>
 
     <!-- ====================================================== -->
-    <!--                                                Size -->
-    <!--                                                ======= -->
+    <!--                                                   Size -->
+    <!--                                                   ==== -->
     <section-header title="Size">A message can have different sizes</section-header>
     <section>
       <div class="ui segment secondary top attached example">
