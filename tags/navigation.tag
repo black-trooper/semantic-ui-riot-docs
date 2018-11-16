@@ -87,6 +87,7 @@
       'Radio',
       'Rating',
       'Tab',
+      'Table',
       'Toast',
     ]
 

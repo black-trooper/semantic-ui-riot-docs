@@ -22,6 +22,7 @@ import '../tags/demo-progress.tag'
 import '../tags/demo-radio.tag'
 import '../tags/demo-rating.tag'
 import '../tags/demo-tab.tag'
+import '../tags/demo-table.tag'
 import '../tags/demo-toast.tag'
 
 const redirect = sessionStorage.redirect
