@@ -129,6 +129,43 @@
     <h2 class="ui dividing header">Examples</h2>
 
     <!-- ====================================================== -->
+    <!--                                               Callback -->
+    <!--                                               ======== -->
+    <section-header title="Callback"></section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <button class="ui button" onclick="{ showAlertWithoutCallback }">Show alert without callback</button>
+        <button class="ui button" onclick="{ showAlertCallback }">Show alert and callback</button>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <button class="ui button" onclick="{ showAlertWithoutCallback }">Show alert without callback</button>
+          <button class="ui button" onclick="{ showAlertCallback }">Show alert and callback</button>
+
+          <script>
+            this.showAlertWithoutCallback = () => {
+              this.suAlert('Hello!')
+            }
+
+            this.showAlertCallback = () => {
+              this.suAlert('Hello!').then(() => {
+                alert('close button clicked')
+              })
+            }
+          </script>
+
+          <!-- only once at the root component -->
+          <su-alert></su-alert>
+          <!-- only once at the root component -->
+        </code></pre>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
     <!--                                        Default Options -->
     <!--                                        =============== -->
     <section-header title="Default Options">You can set button style without setting every time.</section-header>
@@ -189,6 +226,16 @@
     })
     this.showAlert = option => {
       this.suAlert(option)
+    }
+
+    this.showAlertWithoutCallback = () => {
+      this.suAlert('Hello!')
+    }
+
+    this.showAlertCallback = () => {
+      this.suAlert('Hello!').then(() => {
+        alert('close button clicked')
+      })
     }
   </script>
 </demo-alert>
