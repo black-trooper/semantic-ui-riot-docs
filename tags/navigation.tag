@@ -48,6 +48,13 @@
         <a each="{menu in menus}" class="item { active : activeContent == kebab(menu) }" onclick="{ hideMenu }" href="demo-{ kebab(menu) }">{ menu }</a>
       </div>
     </div>
+
+    <div class="item">
+      <div class="header">Addons</div>
+      <div class="menu">
+        <a each="{menu in addons}" class="item { active : activeContent == kebab(menu) }" onclick="{ hideMenu }" href="demo-{ kebab(menu) }">{ menu }</a>
+      </div>
+    </div>
   </div>
 
   <style>
@@ -74,19 +81,22 @@
     this.version = require('../package.json').dependencies['semantic-ui-riot']
 
     this.menus = [
-      'Alert',
       'Accordion',
       'Checkbox',
-      'Confirm',
-      'Datepicker',
       'Dropdown',
       'Modal',
-      'Pagination',
       'Popup',
       'Progress',
-      'Radio',
       'Rating',
       'Tab',
+    ]
+
+    this.addons = [
+      'Alert',
+      'Confirm',
+      'Datepicker',
+      'Pagination',
+      'Radio',
       'Table',
       'Toast',
     ]
