@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Semantic UI Riot Document",
   "scripts": {
-    "devserver": "webpack-dev-server --mode development --inline --watch --hot --content-base ./ --port 3000 --open  --history-api-fallback",
+    "devserver": "webpack-dev-server --mode development --inline --watch --hot --content-base ./ --port 3002 --open  --history-api-fallback",
     "clean": "rimraf ./src/*hot-update.*",
     "start": "npm run clean && npm run devserver",
     "dev": "webpack --mode development",
@@ -29,7 +29,7 @@
     "url": "https://github.com/black-trooper/semantic-ui-riot-docs/issues"
   },
   "dependencies": {
-    "semantic-ui-riot": "0.19.3"
+    "semantic-ui-riot": "0.19.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
