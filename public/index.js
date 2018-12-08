@@ -1,6 +1,7 @@
 const functions = require('firebase-functions');
 const fs = require('fs');
 const xss = require('xss');
+const i18n = require('./i18n/locale-en.json')
 
 /* Trigger: /demo-xxxx  */
 /* 詳細ページへの直接アクセスは、metaタグを埋め込んでからindex.htmlを返す */
@@ -19,6 +20,7 @@ exports.returnWithOGP = functions.https.onRequest((req, res) => {
       .replace(/\<title>(.*)<\/title>/g, `<title>${xss(title)} | Semantic UI Riot</title>`)
       .replace(/\{{title}}/g, xss(title))
       .replace(/\{{url}}/g, xss(url))
+      .replace(/\{{description}}/g, i18n[url].description)
       ;
 
     res.status(200).send(responseHtml);

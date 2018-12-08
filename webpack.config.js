@@ -75,7 +75,7 @@ const config = {
     new webpack.ProvidePlugin({
       riot: 'riot'
     }),
-    new CopyWebpackPlugin(['images/**/*.png', 'images/**/manifest.json', 'images/**/*.ico'])
+    new CopyWebpackPlugin(['images/**/*.png', 'images/**/manifest.json', 'images/**/*.ico', 'i18n/**/*'])
   ]
 };
 
@@ -111,8 +111,8 @@ module.exports = (env, argv) => {
         'og-type': { id: 'og-type', property: 'og:type', content: 'article' },
         'og-title': { id: 'og-title', property: 'og:title', content: '{{title}} | Semantic UI Riot' },
         'og-url': { id: 'og-url', property: 'og:url', content: `${baseUrl}/{{url}}` },
-        // 'og-description': { id: 'og-description', property: 'og:description', content: '{{description}}' },
-        // 'description': { id: 'description', name: 'description', content: '{{description}}' },
+        'og-description': { id: 'og-description', property: 'og:description', content: '{{description}}' },
+        'description': { id: 'description', name: 'description', content: '{{description}}' },
         'keywords': { id: 'keywords', name: 'keywords', content: 'semantic-ui, riot, semantic-ui-riot, Semantic UI Riot, component, {{title}}' }
       }
     }))

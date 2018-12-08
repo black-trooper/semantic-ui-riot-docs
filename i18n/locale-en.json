@@ -1,0 +1,62 @@
+{
+  "accordion": {
+    "subject": "Accordion",
+    "description": "An accordion allows users to toggle the display of sections of content"
+  },
+  "alert": {
+    "subject": "Alert",
+    "description": "An alert can be used instead of 'alert()' to provide feedback messages."
+  },
+  "checkbox": {
+    "subject": "Checkbox",
+    "description": "A checkbox allows a user to select a value from a small set of options, often binary"
+  },
+  "confirm": {
+    "subject": "Confirm",
+    "description": "A confirm can be used instead of 'confirm()' to provide confirmation messages."
+  },
+  "datepicker": {
+    "subject": "Datepicker",
+    "description": ""
+  },
+  "dropdown": {
+    "subject": "Dropdown",
+    "description": "A dropdown allows a user to select a value from a series of options"
+  },
+  "modal": {
+    "subject": "Modal",
+    "description": "A modal displays content that temporarily blocks interactions with the main view of a site"
+  },
+  "pagination": {
+    "subject": "Pagination",
+    "description": "A component to render a pagination."
+  },
+  "popup": {
+    "subject": "Popup",
+    "description": "A popup displays additional information on top of a page"
+  },
+  "progress": {
+    "subject": "Progress",
+    "description": "A progress bar shows the progression of a task"
+  },
+  "radio": {
+    "subject": "Radio",
+    "description": "A checkbox allows a user to select a value from a small set of options, often binary"
+  },
+  "rating": {
+    "subject": "Rating",
+    "description": "A rating indicates user interest in content"
+  },
+  "tab": {
+    "subject": "Tab",
+    "description": "A tab is a hidden section of content activated by a menu"
+  },
+  "table": {
+    "subject": "Table",
+    "description": "A table displays a collections of data grouped into rows"
+  },
+  "toast": {
+    "subject": "Toast",
+    "description": "A toast provide feedback messages"
+  }
+}
