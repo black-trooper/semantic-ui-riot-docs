@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const escapeHtml = require('escape-html')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+require("@babel/polyfill");
 
 const escapeCode = code => {
   code = escapeHtml(code).replace(/{/g, '\\{').replace(/}/g, '\\}')
@@ -27,6 +28,7 @@ const ltrim = target => {
 }
 
 const config = {
+  entry: ["@babel/polyfill", "./src/index.js"],
   output: {
     path: __dirname + '/'
   },
