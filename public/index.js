@@ -21,6 +21,7 @@ exports.returnWithOGP = functions.https.onRequest((req, res) => {
       .replace(/\{{title}}/g, xss(title))
       .replace(/\{{url}}/g, xss(url))
       .replace(/\{{description}}/g, i18n[url].description)
+      .replace(/\<content>([\s\S]*)<\/content>/g, `<content><h1>${xss(title)}</h1><p>${i18n[url].description}</p></content>`)
       ;
 
     res.status(200).send(responseHtml);
