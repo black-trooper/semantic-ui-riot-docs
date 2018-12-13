@@ -10,4 +10,12 @@
       </div>
     </div>
   </div>
+
+  <style>
+    .sticky {
+      position: sticky;
+      padding-top: 1.5rem;
+      top: 0;
+    }
+  </style>
 </content-navigation>

@@ -37,12 +37,6 @@ h3.ui.header:first-child {
   width: 319px;
 }
 
-.sticky {
-  position: sticky;
-  padding-top: 1.5rem;
-  top: 0;
-}
-
 p {
   margin: 1em 0em;
 }
