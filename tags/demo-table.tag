@@ -7,7 +7,7 @@
   </div>
 
   <div class="main container">
-    <content-navigation title="Sortable Table" items="{ navigation }" />
+    <content-navigation title="Table" items="{ navigation }" />
 
     <!-- =================================================================================== -->
     <!--                                                                          Variations -->
