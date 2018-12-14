@@ -35,9 +35,13 @@
       <div class="header">Getting Started</div>
       <div class="menu">
         <a class="item" href="./">Introduction</a>
-        <a href="https://github.com/black-trooper/semantic-ui-riot" class="item">
+        <a href="https://github.com/black-trooper/semantic-ui-riot" class="item" target="_blank">
           <i aria-hidden="true" class="github icon"></i>
           GitHub
+        </a>
+        <a href="https://github.com/black-trooper/semantic-ui-riot/blob/master/CHANGELOG.md" class="item" target="_blank">
+          <i aria-hidden="true" class="file icon"></i>
+          CHANGELOG
         </a>
       </div>
     </div>
