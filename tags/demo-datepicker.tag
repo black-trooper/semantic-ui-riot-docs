@@ -214,6 +214,53 @@
     </section>
 
     <!-- =================================================================================== -->
+    <!--                                                                          Variations -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Variations</h2>
+    <!-- ====================================================== -->
+    <!--                                              Direction -->
+    <!--                                              ========= -->
+    <section-header title="Direction">Set to upward or downward to always force a direction.</section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <div class="ui form">
+          <div class="inline fields">
+            <div class="field">
+              <su-datepicker popup="true" direction="upward" />
+            </div>
+            <div class="field">
+              <su-datepicker popup="true" direction="downward" />
+            </div>
+            <div class="field">
+              <su-datepicker popup="true" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <div class="ui form">
+            <div class="inline fields">
+              <div class="field">
+                <su-datepicker popup="true" direction="upward" />
+              </div>
+              <div class="field">
+                <su-datepicker popup="true" direction="downward" />
+              </div>
+              <div class="field">
+                <su-datepicker popup="true" />
+              </div>
+            </div>
+          </div>
+        </code></pre>
+      </div>
+    </section>
+
+    <!-- =================================================================================== -->
     <!--                                                                            Examples -->
     <!-- =================================================================================== -->
     <h2 class="ui dividing header">Examples</h2>

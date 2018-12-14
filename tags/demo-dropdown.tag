@@ -65,6 +65,12 @@
     <dropdown-states></dropdown-states>
 
     <!-- =================================================================================== -->
+    <!--                                                                          Variations -->
+    <!-- =================================================================================== -->
+    <h2 class="ui dividing header">Variations</h2>
+    <dropdown-direction></dropdown-direction>
+
+    <!-- =================================================================================== -->
     <!--                                                                            Examples -->
     <!-- =================================================================================== -->
     <h2 class="ui dividing header">Examples</h2>
@@ -94,6 +100,7 @@
     import './dropdown/dropdown-description.tag'
     import './dropdown/dropdown-image.tag'
     import './dropdown/dropdown-states.tag'
+    import './dropdown/dropdown-direction.tag'
     import './dropdown/dropdown-named-element.tag'
     import './dropdown/dropdown-named-element-multi.tag'
     import './dropdown/dropdown-event-trigger.tag'
