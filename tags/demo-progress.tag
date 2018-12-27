@@ -1,11 +1,4 @@
 <demo-progress>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Progress
-      <div class="sub header">A progress bar shows the progression of a task</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Progress" items="{ navigation }" />
     <!-- =================================================================================== -->

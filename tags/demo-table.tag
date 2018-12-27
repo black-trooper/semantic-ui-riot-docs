@@ -1,11 +1,4 @@
 <demo-table>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Table
-      <div class="sub header">A table displays a collections of data grouped into rows</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Table" items="{ navigation }" />
 

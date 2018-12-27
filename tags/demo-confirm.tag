@@ -1,13 +1,4 @@
 <demo-confirm>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Confirm
-      <span class="ui label teal small">since 0.7.10</span>
-      <div class="sub header">
-        A confirm can be used instead of 'confirm()' to provide confirmation messages.</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Confirm" items="{ navigation }" />
 

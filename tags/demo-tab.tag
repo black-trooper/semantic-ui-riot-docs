@@ -1,11 +1,4 @@
 <demo-tab>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Tab
-      <div class="sub header">A tab is a hidden section of content activated by a menu</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Tab" items="{ navigation }" />
 

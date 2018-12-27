@@ -7,6 +7,7 @@ import './common.css'
 
 import '../tags/introduction.tag'
 import '../tags/navigation.tag'
+import '../tags/content-header.tag'
 import '../tags/content-navigation.tag'
 import '../tags/section-header.tag'
 import '../tags/demo-accordion.tag'
@@ -56,6 +57,7 @@ route((collection, title) => {
     const url = collection.match(/demo-([^\/\?]*)/)[1];
     const pageTitle = url.charAt(0).toUpperCase() + url.slice(1)
     document.title = `${pageTitle} | Semantic UI Riot`
+    riot.mount('content-header', { page: url })
   }
   riot.mount('content', collection)
 })

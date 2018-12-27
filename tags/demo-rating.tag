@@ -1,11 +1,4 @@
 <demo-rating>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Rating<span class="ui label teal small">since 0.8.0</span>
-      <div class="sub header">A rating indicates user interest in content</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Rating" items="{ navigation }" />
 

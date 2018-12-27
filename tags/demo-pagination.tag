@@ -1,11 +1,4 @@
 <demo-pagination>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Pagination
-      <div class="sub header">A component to render a pagination.</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Pagination" items="{ navigation }" />
     <!-- =================================================================================== -->

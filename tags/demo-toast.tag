@@ -1,12 +1,4 @@
 <demo-toast>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Toast
-      <span class="ui label teal small">since 0.11.0</span>
-      <div class="sub header">A toast provide feedback messages</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Toast" items="{ navigation }" />
     <!-- =================================================================================== -->

@@ -1,12 +1,4 @@
 <demo-radio>
-
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Radio
-      <div class="sub header">A checkbox allows a user to select a value from a small set of options, often binary</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Radio" items="{ navigation }" />
     <!-- =================================================================================== -->

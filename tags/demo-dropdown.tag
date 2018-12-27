@@ -1,11 +1,4 @@
 <demo-dropdown>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Dropdown
-      <div class="sub header">A dropdown allows a user to select a value from a series of options</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Dropdown" items="{ navigation }" />
     <!-- =================================================================================== -->

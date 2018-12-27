@@ -1,11 +1,4 @@
 <demo-modal>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Modal
-      <div class="sub header">A modal displays content that temporarily blocks interactions with the main view of a site</div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Modal" items="{ navigation }" />
     <!-- =================================================================================== -->

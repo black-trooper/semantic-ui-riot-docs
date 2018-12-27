@@ -1,11 +1,4 @@
 <demo-popup>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Popup
-      <div class="sub header">A popup displays additional information on top of a page </div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Popup" items="{ navigation }" />
     <!-- =================================================================================== -->

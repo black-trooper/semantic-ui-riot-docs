@@ -1,11 +1,4 @@
 <demo-datepicker>
-  <div class="ui masthead vertical segment">
-    <h1 class="ui header">
-      Datepicker
-      <div class="sub header"></div>
-    </h1>
-  </div>
-
   <div class="main container">
     <content-navigation title="Datepicker" items="{ navigation }" />
 
