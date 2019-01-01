@@ -103,6 +103,7 @@
       'Radio',
       'Table',
       'Toast',
+      'Validation Error',
     ]
 
     this.on('mount', () => {

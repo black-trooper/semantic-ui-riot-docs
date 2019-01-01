@@ -58,5 +58,9 @@
   "toast": {
     "subject": "Toast",
     "description": "A toast provide feedback messages"
+  },
+  "validation-error": {
+    "subject": "Validation Error",
+    "description": "A validation-error indicate the reason for the validation error"
   }
 }

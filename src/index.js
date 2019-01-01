@@ -25,6 +25,7 @@ import '../tags/demo-rating.tag'
 import '../tags/demo-tab.tag'
 import '../tags/demo-table.tag'
 import '../tags/demo-toast.tag'
+import '../tags/demo-validation-error.tag'
 
 // Initialize Firebase
 var config = {
