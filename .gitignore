@@ -3,6 +3,7 @@ src/*hot-update.*
 src/semantic-ui-riot.js
 public/*
 !public/index.js
+!public/main.js
 !public/package.json
 !public/package-lock.json
 .firebase/
