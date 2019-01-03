@@ -1,8 +1,4 @@
 <introduction>
-  <h1 class="ui header">
-    Semantic UI Riot
-    <div class="sub header">Semantic-UI-Riot integration.</div>
-  </h1>
   <h2 class="ui dividing header" id="introduction">Introduction</h2>
   <p>
     Semantic UI Riot is
@@ -125,6 +121,10 @@
   <style>
     section {
       margin: 2.5rem 0;
+    }
+
+    #introduction {
+      margin-top: calc(2rem - 0.142857em);
     }
   </style>
 

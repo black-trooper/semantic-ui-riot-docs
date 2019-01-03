@@ -42,11 +42,13 @@ global.observable = riot.observable()
 
 route('', () => {
   document.title = 'Semantic UI Riot'
+  riot.mount('content-header', { page: 'root' })
   riot.mount('content', 'introduction')
 })
 
 route('index.html', () => {
   document.title = 'Semantic UI Riot'
+  riot.mount('content-header', { page: 'root' })
   riot.mount('content', 'introduction')
 })
 
