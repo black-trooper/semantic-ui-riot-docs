@@ -8,6 +8,7 @@ install:
   - npm install -g firebase-tools
   - cd public
   - npm install
+  - cd ..
 deploy:
   provider: firebase
   skip_cleanup: true
