@@ -1,0 +1,16 @@
+https://semantic-ui-riot.firebaseapp.com/
+https://semantic-ui-riot.firebaseapp.com/demo-accordion
+https://semantic-ui-riot.firebaseapp.com/demo-alert
+https://semantic-ui-riot.firebaseapp.com/demo-checkbox
+https://semantic-ui-riot.firebaseapp.com/demo-confirm
+https://semantic-ui-riot.firebaseapp.com/demo-datepicker
+https://semantic-ui-riot.firebaseapp.com/demo-dropdown
+https://semantic-ui-riot.firebaseapp.com/demo-modal
+https://semantic-ui-riot.firebaseapp.com/demo-pagination
+https://semantic-ui-riot.firebaseapp.com/demo-popup
+https://semantic-ui-riot.firebaseapp.com/demo-progress
+https://semantic-ui-riot.firebaseapp.com/demo-radio
+https://semantic-ui-riot.firebaseapp.com/demo-rating
+https://semantic-ui-riot.firebaseapp.com/demo-tab
+https://semantic-ui-riot.firebaseapp.com/demo-table
+https://semantic-ui-riot.firebaseapp.com/demo-toast
