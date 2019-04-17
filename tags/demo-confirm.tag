@@ -189,20 +189,18 @@
         import './sample.tag'
 
         su_riot({
-          defaultOptions: {
-            confirm: {
-              buttons: {
-                ok: {
-                  text: 'Delete',
-                  type: 'negative',
-                  icon: 'trash',
-                },
-                cancel: {
-                  default: true,
-                  text: 'Not delete',
-                  type: 'positive',
-                  icon: 'undo',
-                }
+          confirm: {
+            buttons: {
+              ok: {
+                text: 'Delete',
+                type: 'negative',
+                icon: 'trash',
+              },
+              cancel: {
+                default: true,
+                text: 'Not delete',
+                type: 'positive',
+                icon: 'undo',
               }
             }
           }

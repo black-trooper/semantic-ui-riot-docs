@@ -170,14 +170,12 @@
         import './sample.tag'
 
         su_riot({
-          defaultOptions: {
-            alert: {
-              button: {
-                default: true,
-                text: 'OK',
-                type: 'primary',
-                icon: 'check',
-              }
+          alert: {
+            button: {
+              default: true,
+              text: 'OK',
+              type: 'primary',
+              icon: 'check',
             }
           }
         })
