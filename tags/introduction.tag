@@ -1,9 +1,9 @@
 <introduction>
   <h2 class="ui dividing header" id="introduction">Introduction</h2>
   <p>
-    Semantic UI Riot is
-    <a href="https://v3.riotjs.now.sh/">Riot</a> integration for
-    <a href="https://semantic-ui.com/">Semantic UI</a>.
+    Semantic UI Riot is a set of <a href="https://v3.riotjs.now.sh/">Riot</a> components based on
+    <a href="https://semantic-ui.com/">Semantic UI</a> markup and CSS.<br />
+    As a result no dependency on jQuery or Semantic UI's JavaScript is required.
     <div class="ui images">
       <a href="https://semantic-ui.com/">
         <img class="ui mini image" src="https://semantic-ui.com/images/logo.png" />
@@ -24,7 +24,7 @@
         <!DOCTYPE html>
         <html>
         <head>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         </head>
         <body>
           <sample></sample>
@@ -98,7 +98,7 @@
         <!DOCTYPE html>
         <html>
         <head>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         </head>
         <body>
           <sample></sample>

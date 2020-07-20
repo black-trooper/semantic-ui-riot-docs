@@ -17,7 +17,7 @@
         <i class="icon code link" onclick="{ toggleExample }"></i>
       </div>
       <div class="ui segment bottom attached">
-        <su-datepicker ref="datepicker" />
+        <su-datepicker ref="datepicker" datetime="true" />
         <div class="ui message">
           <p><b>value</b> : { refs.datepicker.value }</p>
           <p><b>valueAsDate</b> : { refs.datepicker.valueAsDate }</p>
@@ -103,6 +103,39 @@
         <pre class="language-markup"><code>
           <su-datepicker popup="true" pattern="YYYY/MM/DD" />
         </code></pre>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                                               Datetime -->
+    <!--                                               ========= -->
+    <section-header title="Datetime"></section-header>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code link" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-datepicker datetime="true" />
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+            <su-datepicker datetime="true" />
+          </code></pre>
+      </div>
+    </section>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code link" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-datepicker datetime="true" popup="true" />
+      </div>
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+            <su-datepicker datetime="true" popup="true" />
+          </code></pre>
       </div>
     </section>
 
@@ -311,7 +344,8 @@
     <!--                                   Internationalization -->
     <!--                                   ==================== -->
     <section-header title="Internationalization">
-      This component relies on a third party date management library called date-fns.<br/> Please refer to the <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a>
+      This component relies on a third party date management library called date-fns.<br/> Please refer to the
+      <a href="//date-fns.org/v1.29.0/docs/I18n#supported-languages">date-fns website</a>
       for supported languages.
     </section-header>
 
@@ -337,7 +371,8 @@
     <!-- ====================================================== -->
     <!--                                        Default Options -->
     <!--                                        =============== -->
-    <section-header title="Default Options">You can set the date format and locale without setting every time.</section-header>
+    <section-header title="Default Options">You can set the date format and locale without setting every time.
+    </section-header>
 
     <h4>index.js</h4>
     <div class="ui inverted segment">
