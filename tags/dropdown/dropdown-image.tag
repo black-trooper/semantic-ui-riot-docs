@@ -25,17 +25,17 @@
             },
             {
               label: 'Jenny Hess',
-              image: './images/avatar/small/jenny.jpg',
+              image: '/images/avatar/small/jenny.jpg',
               value: 'jenny'
             },
             {
               label: 'Elliot Fu',
-              image: './images/avatar/small/elliot.jpg',
+              image: '/images/avatar/small/elliot.jpg',
               value: 'elliot'
             },
             {
               label: 'Stevie Feliciano',
-              image: './images/avatar/small/stevie.jpg',
+              image: '/images/avatar/small/stevie.jpg',
               value: 'stevie'
             },
             {
@@ -44,17 +44,17 @@
             },
             {
               label: 'Christian',
-              image: './images/avatar/small/christian.jpg',
+              image: '/images/avatar/small/christian.jpg',
               value: 'christian'
             },
             {
               label: 'Matt',
-              image: './images/avatar/small/matt.jpg',
+              image: '/images/avatar/small/matt.jpg',
               value: 'matt'
             },
             {
               label: 'Justen Kitsune',
-              image: './images/avatar/small/justen.jpg',
+              image: '/images/avatar/small/justen.jpg',
               value: 'justen'
             }
           ]
@@ -76,17 +76,17 @@
       },
       {
         label: 'Jenny Hess',
-        image: './images/avatar/small/jenny.jpg',
+        image: '/images/avatar/small/jenny.jpg',
         value: 'jenny'
       },
       {
         label: 'Elliot Fu',
-        image: './images/avatar/small/elliot.jpg',
+        image: '/images/avatar/small/elliot.jpg',
         value: 'elliot'
       },
       {
         label: 'Stevie Feliciano',
-        image: './images/avatar/small/stevie.jpg',
+        image: '/images/avatar/small/stevie.jpg',
         value: 'stevie'
       },
       {
@@ -95,17 +95,17 @@
       },
       {
         label: 'Christian',
-        image: './images/avatar/small/christian.jpg',
+        image: '/images/avatar/small/christian.jpg',
         value: 'christian'
       },
       {
         label: 'Matt',
-        image: './images/avatar/small/matt.jpg',
+        image: '/images/avatar/small/matt.jpg',
         value: 'matt'
       },
       {
         label: 'Justen Kitsune',
-        image: './images/avatar/small/justen.jpg',
+        image: '/images/avatar/small/justen.jpg',
         value: 'justen'
       }
     ]

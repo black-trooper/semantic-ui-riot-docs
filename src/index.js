@@ -65,7 +65,7 @@ route((collection, title) => {
   riot.mount('content', collection)
 })
 
-route.base('/')
+route.base('/v3/')
 route.start(true)
 
 riot.mixin({

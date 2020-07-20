@@ -8,16 +8,17 @@
     <div class="ui segment bottom attached">
       <su-modal modal="{ modal }" class="large" ref="modal">
         <div class="ui medium image">
-          <img src="./images/avatar2/large/rachel.png" />
+          <img src="/images/avatar2/large/rachel.png" />
 
         </div>
-        <div class="description">
-          <div class="ui header">Default Profile Image</div>
-          <p>We've found the following <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated
-            with
-            your e-mail address.</p>
-          <p>Is it okay to use this photo?</p>
-        </div>
+          <div class="description">
+            <div class="ui header">Default Profile Image</div>
+            <p>We've found the following <a href="https://www.gravatar.com" target="_blank">gravatar</a> image
+              associated
+              with
+              your e-mail address.</p>
+            <p>Is it okay to use this photo?</p>
+          </div>
       </su-modal>
       <button class="ui button" onclick="{ showModal }">Show modal</button>
     </div>
@@ -25,7 +26,7 @@
       <pre class="language-markup"><code>
         <su-modal modal="{ modal }" class="large" ref="modal">
           <div class="ui medium image">
-            <img src="./images/avatar2/large/rachel.png" />
+            <img src="/images/avatar2/large/rachel.png" />
           </div>
           <div class="description">
             <div class="ui header">Default Profile Image</div>

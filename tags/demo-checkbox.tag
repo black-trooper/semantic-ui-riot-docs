@@ -344,6 +344,37 @@
         </code></pre>
       </div>
     </section>
+
+    <p>Use 'deter-parent-update' to access many checkboxes</p>
+    <section>
+      <div class="ui segment secondary top attached example">
+        Example
+        <i class="icon code" onclick="{ toggleExample }"></i>
+      </div>
+      <div class="ui segment bottom attached">
+        <su-checkbox each="{item in items}" checked="{ item.checked }" deter-parent-update="true" />
+        <button type="button" onclick="{ toggle.bind(this) }" class="ui button">Toggle</button>
+      </div>
+
+      <div class="ui segment bottom attached inverted transition hidden">
+        <pre class="language-markup"><code>
+          <su-checkbox each="{item in items}" checked="{ item.checked }" deter-parent-update="true" />
+          <button type="button" onclick="{ toggle.bind(this) }" class="ui button">Toggle</button>
+          <script>
+            this.items = Array.from(Array(500).keys()).map(i => i).map(index => {
+              return {
+                checked: false
+              }
+            })
+            this.toggle = () => {
+              this.items.forEach(item => {
+                item.checked = !item.checked
+              })
+            }
+          </script>
+        </code></pre>
+      </div>
+    </section>
   </div>
 
   <script>
@@ -372,6 +403,17 @@
     this.checkbox_label = 'change'
     this.changeCheckboxLabel = () => {
       this.checkbox_label = (this.checkbox_label === 'change') ? 'changed' : 'change'
+    }
+
+    this.items = Array.from(Array(500).keys()).map(i => i).map(index => {
+      return {
+        checked: false
+      }
+    })
+    this.toggle = () => {
+      this.items.forEach(item => {
+        item.checked = !item.checked
+      })
     }
   </script>
 </demo-checkbox>

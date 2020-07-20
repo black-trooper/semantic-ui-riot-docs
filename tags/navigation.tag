@@ -43,6 +43,9 @@
           <i aria-hidden="true" class="file icon"></i>
           CHANGELOG
         </a>
+        <a href="/" class="item">
+          for Riot v4
+        </a>
       </div>
     </div>
 
